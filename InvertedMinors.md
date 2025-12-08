@@ -228,14 +228,63 @@ graph TD
 ### Board e
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SA642HAQ54DQ98C87&s=SQTHKDAKT653CQJ96" style="border: none"></iframe>
 
+<details>
+  <summary>[Bidding - Click To Reveal]</summary>
+
+    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp3cp3n" style="border: none"></iframe>  
+    <ol>
+        <li>North opens 1♦️</li>
+        <li>South bids 2♦️</li>
+        <li>North has a stopper in ❤️ and ♠️, but is concerned about the singleton low ♣️, so bids 3♣️</li>
+        <li>South has a stopper in ♣️ so bids 3NT</li>
+    </ol> 
+</details>
+
 ### Board f
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SA6HKJ63DK52CJT52&s=S983H2DAQT9CAK863" style="border: none"></iframe>
+
+<details>
+  <summary>[Bidding - Click To Reveal]</summary>
+
+    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2np3n" style="border: none"></iframe>  
+    <ol>
+        <li>North opens 1♦️</li>
+        <li>South bids 2♦️</li>
+        <li>North has a stopper in ❤️ and ♠️, and a minimum hand, so bids 2NT</li>
+        <li>With 14hcp, north takes it to 3NT</li>
+    </ol> 
+</details>
 
 ### Board g
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SAT64HKQ42DK873C5&s=S98HAT9DQT54CAK83" style="border: none"></iframe>
 
+<details>
+  <summary>[Bidding - Click To Reveal]</summary>
+
+    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp3cp3n" style="border: none"></iframe>  
+    <ol>
+        <li>North opens 1♦️</li>
+        <li>South bids 2♦️</li>
+        <li>North has a stopper in ❤️ and ♠️, but is concerned about the singleton low ♣️, so bids 3♣️</li>
+        <li>South has a stopper in ♣️ so bids 3NT</li>
+    </ol> 
+</details>
+
 ### Board h
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SQ872HJTDAJ64CA96&s=SA5HA95DQT872CQ74" style="border: none"></iframe>
+
+<details>
+  <summary>[Bidding - Click To Reveal]</summary>
+
+    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1cp2cp2hp2npp" style="border: none"></iframe>  
+    <ol>
+        <li>North opens 1♣️</li>
+        <li>South bids 2♣️</li>
+        <li>North has a stopper in ❤️, but not ♠️, so bids 2❤️</li>
+        <li>South has a stopper in ♠️ and 12hcp, so bids 2NT</li>
+        <li>With 12hcp south passes</li>
+    </ol> 
+</details>
 
 ### Board i
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SA65HKQ86DT765CA7&s=SKJ7H4DAJ9843CK94" style="border: none"></iframe>
