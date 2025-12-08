@@ -117,8 +117,6 @@ graph TD
 ### Board 5
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SQJ8HAJD8632CAQ75&s=S54HQ2DAKJ54CKJ94" style="border: none"></iframe>
 
-<iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=ST42HA53DA5CAQ965&s=SA75HK2DQT2CKT742" style="border: none"></iframe>
-
 <details>
   <summary>[Bidding - Click To Reveal]</summary>
 
@@ -131,12 +129,39 @@ graph TD
     </ol> 
 </details>
 
+### Board 6
+<iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=ST42HA53DA5CAQ965&s=SA75HK2DQT2CKT742" style="border: none"></iframe>
+
+<details>
+  <summary>[Bidding - Click To Reveal]</summary>
+
+    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1cp2cp2hp2np3n" style="border: none"></iframe>  
+    <ol>
+        <li>North opens 1♣️</li>
+        <li>South bids 2♣️</li>
+        <li>North has a stopper in ❤️, but not ♠️, so bids 2❤️</li>
+        <li>South has a stopper in ♠️ and 12hcp, so bids 2NT</li>
+        <li>With 14hcp, north takes it to 3NT</li>
+    </ol> 
+</details>
+
+### Board 7
+<iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SK72HQJ7DAQ76C632&s=S8HK54DJT532CAK74" style="border: none"></iframe>
+
+<details>
+  <summary>[Bidding - Click To Reveal]</summary>
+
+    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2npp" style="border: none"></iframe>  
+    <ol>
+        <li>North opens 1♦️</li>
+        <li>South bids 2♦️</li>
+        <li>North has a stopper in ❤️ and ♠️, and a minimum hand, so bids 2NT</li>
+        <li>With only a minimum hand, south passes</li>
+    </ol> 
+</details>
 
 
 ## TODO:  ANNOTATE below this line
-
-### Board a
-<iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SK72HQJ7DAQ76C632&s=S8HK54DJT532CAK74" style="border: none"></iframe>
 
 ### Board b
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SKQ4HT97DAT8CAJ72&s=SA7HKJ2DK7542CKQ5" style="border: none"></iframe>
