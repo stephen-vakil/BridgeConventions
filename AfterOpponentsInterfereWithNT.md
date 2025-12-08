@@ -1,5 +1,6 @@
 ```mermaid
 graph TD
+
     A[1NT Opened] -->OppDbl[A - Opponents Double]
     A[1NT Opened] -->Opp2C[B - Opponents Bid 2 clubs]
     A[1NT Opened] -->Opp2x[B - Opponents Bid 2D/2H/2S]
