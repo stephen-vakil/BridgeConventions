@@ -1,4 +1,5 @@
 ```mermaid
+
 graph TD
 
     A[1NT Opened] -->OppDbl[A - Opponents Double]
@@ -26,3 +27,4 @@ graph TD
     2NTOpp2x8to9 -->|With stopper| MayPass8to9[May pass or bid]
     3NTOpp2x10plus -->|Also no stopper| MustBid10plus[Must bid]
     3NTOpp2x10plus -->|With stopper| MayPass10plus[May pass or bid]
+```
