@@ -160,19 +160,70 @@ graph TD
     </ol> 
 </details>
 
-
-## TODO:  Annotate below this line
-### Board a
+### Board 8
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=S4HKDAQ8742CKQJT3&s=SA9HA5DKT93C97654" style="border: none"></iframe>
 
-### Board b
+<details>
+  <summary>[Bidding - Click To Reveal]</summary>
+
+    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2np3n" style="border: none"></iframe>  
+    <ol>
+        <li>North has too many hcp to open 1NT and not enough for 2NT.  North opens 1♦️</li>
+        <li>South bids 2♦️</li>
+        <li>North isn't too interested in NT because of the distributional power of the hand.  North knows they have at least 10♦️ and can find at least 17 total points if you include the length in ♦️.  If North bids 4NT they might get too high and have to play in 6♦️, so North bids 5♦️
+        <li>With 11 hcp, the bare minimum, south passes.</li>
+    </ol> 
+</details>
+
+### Board 9
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SK97HK954DKJ62CQ5&s=SAJ6HA7DT954CAJT6" style="border: none"></iframe>
 
-### Board c
+<details>
+  <summary>[Bidding - Click To Reveal]</summary>
+
+    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2np3n" style="border: none"></iframe>  
+    <ol>
+        <li>North opens 1♦️</li>
+        <li>South bids 2♦️</li>
+        <li>North has a stopper in ❤️ and ♠️, and a minimum hand, so bids 2NT</li>
+        <li>With 14hcp, north takes it to 3NT</li>
+    </ol> 
+</details>
+
+### Board 10
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SKT63HAQ62D764CK5&s=SQ2HK93DAT32CQ842" style="border: none"></iframe>
 
-### Board d
+<details>
+  <summary>[Bidding - Click To Reveal]</summary>
+
+    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2npp" style="border: none"></iframe>  
+    <ol>
+        <li>North opens 1♦️</li>
+        <li>South bids 2♦️</li>
+        <li>North has a stopper in ❤️ and ♠️, and a minimum hand, so bids 2NT</li>
+        <li>With only a minimum hand, south passes</li>
+    </ol> 
+</details>
+
+### Board 11
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SKQJHQJDAKJ3CQ864&s=SA96HA85D87654CA5" style="border: none"></iframe>
+
+<details>
+  <summary>[Bidding - Click To Reveal]</summary>
+
+    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2hp3np4npp" style="border: none"></iframe>  
+    <ol>
+        <li>North opens 1♦️</li>
+        <li>South bids 2♦️</li>
+        <li>North has a ton of points.  We are certainly at least in game.  North can still force bidding to continue and learn more about south's hand.  With no stopper in ♠️, north bids ❤️.</li>
+        <li>South has ❤️ and 12hcp, so bids 3NT</li>
+        <li>North knows they have slam potential in NT now.  North bids a quantitative invite of 4NT.</li>
+        <li>With only 12hcp, south is pretty close to the minimum for their bids so far, so south passes.
+    </ol> 
+</details>
+
+
+## TODO:  Annotate below this line
 
 ### Board e
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SA642HAQ54DQ98C87&s=SQTHKDAKT653CQJ96" style="border: none"></iframe>
