@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom CSS to widen the content area */
+.inner {
+  max-width: 95% !important; /* Increase this percentage as needed */
+  padding: 1rem 2rem;       /* Adjust padding if necessary */
+}
+
+/* Optional: Ensure the main content block itself spans the new width */
+.main-content {
+  max-width: 100%;
+}
