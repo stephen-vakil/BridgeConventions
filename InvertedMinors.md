@@ -218,7 +218,7 @@ graph TD
         <li>North has a ton of points.  We are certainly at least in game.  North can still force bidding to continue and learn more about south's hand.  With no stopper in ♠️, north bids ❤️.</li>
         <li>South has ❤️ and 12hcp, so bids 3NT</li>
         <li>North knows they have slam potential in NT now.  North bids a quantitative invite of 4NT.</li>
-        <li>With only 12hcp, south is pretty close to the minimum for their bids so far, so south passes.
+        <li>With only 12hcp, south is pretty close to the minimum for their bids so far, so south passes.</li>
     </ol> 
 </details>
 
