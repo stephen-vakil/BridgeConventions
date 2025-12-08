@@ -170,7 +170,7 @@ graph TD
     <ol>
         <li>North has too many hcp to open 1NT and not enough for 2NT.  North opens 1♦️</li>
         <li>South bids 2♦️</li>
-        <li>North isn't too interested in NT because of the distributional power of the hand.  North knows they have at least 10♦️ and can find at least 17 total points if you include the length in ♦️.  If North bids 4NT they might get too high and have to play in 6♦️, so North bids 5♦️
+        <li>North isn't too interested in NT because of the distributional power of the hand.  North knows they have at least 10♦️ and can find at least 17 total points if you include the length in ♦️.  If North bids 4NT they might get too high and have to play in 6♦️, so North bids 5♦️</li>
         <li>With 11 hcp, the bare minimum, south passes.</li>
     </ol> 
 </details>
