@@ -1,2 +1,6 @@
 mermaid: true
-theme: minima
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: jekyll/minima
