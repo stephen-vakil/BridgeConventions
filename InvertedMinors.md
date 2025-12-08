@@ -50,60 +50,102 @@ graph TD
 
 
 # Sample Hands
-## TODO:  ANNOTATE
 
 ### Board 1
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SKQ2HJ98DAT842CA7&s=ST6HAK7DKJ76CQJT8" style="border: none"></iframe>
 
 <details>
   <summary>[Bidding - Click To Reveal]</summary>
-  - North opens 1♦️
-  - South bids 2♦️
-  - North has a stopper in ♠️, but not ❤️, so bids 2♠️
-  - South has ❤️ and 14hcp, so bids 3NT
-  <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2sp3n" style="border: none"></iframe>  
+
+    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2sp3n" style="border: none"></iframe>  
+    <ol>
+        <li>North opens 1♦️</li>
+        <li>South bids 2♦️</li>
+        <li>North has a stopper in ♠️, but not ❤️, so bids 2♠️</li>
+        <li>South has ❤️ and 14hcp, so bids 3NT</li>
+    </ol> 
 </details>
 
 
 ### Board 2
-<iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SAT8HAQTD652CAQJ3&s=SKJHJ65DA98CK7542" style="border: none"></iframe>
-
-### Board 3
-<iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SAQ52H543DKQJ9C54&s=S8HA86DAT32CAT973" style="border: none"></iframe>
-
-### Board 4
-<iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=S64HQ3DAJ84CKQ863&s=SAK9H82DKQT652CJ7" style="border: none"></iframe>
-
-### Board 5
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SQJHA2DA8632CK632&s=SK2HQJDKJT95CA984" style="border: none"></iframe>
 
-### Board 6
+<details>
+  <summary>[Bidding - Click To Reveal]</summary>
+
+    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2hp3n" style="border: none"></iframe>  
+    <ol>
+        <li>North opens 1♦️</li>
+        <li>South bids 2♦️</li>
+        <li>North has a stopper in ❤️, but is not sure about ♠️, so bids 2❤️</li>
+        <li>South has a stopper in ♠️ with the K, and 14hcp, so bids 3NT</li>
+    </ol> 
+</details>
+
+### Board 3
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SKQT7HAJ43DQ975C6&s=SA64HDAK43CAJ9743" style="border: none"></iframe>
 
-### Board 7
-<iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SKQT8HAQT2DJ6C942&s=S5HK98DAKT32CQT53" style="border: none"></iframe>
+<details>
+  <summary>[Bidding - Click To Reveal]</summary>
 
-### Board 8
+    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp3cp3n" style="border: none"></iframe>  
+    <ol>
+        <li>North opens 1♦️</li>
+        <li>South bids 2♦️</li>
+        <li>North has a stopper in ❤️ and ♠️, but is concerned about the singleton low ♣️, so bids 3♣️</li>
+        <li>South has a stopper in ♣️ so bids 3NT</li>
+    </ol> 
+</details>
+
+
+### Board 4
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=ST42HA53DA5CAQ965&s=SA75HK2DQT2CKT742" style="border: none"></iframe>
 
-### Board 9
-<iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SA96HA74DKQ5CQ642&s=SKT7HK82DJT632CAK" style="border: none"></iframe>
+<details>
+  <summary>[Bidding - Click To Reveal]</summary>
 
-### Board 10
-<iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SAJ98HAQ5DAJ96CAQ&s=SK3HKJTDK743CK764" style="border: none"></iframe>
+    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2hp3n" style="border: none"></iframe>  
+    <ol>
+        <li>North opens 1♦️</li>
+        <li>South bids 2♦️</li>
+        <li>North has a stopper in ❤️, but is not sure about ♠️, so bids 2❤️</li>
+        <li>South has a stopper in ♠️ with the K, and 14hcp, so bids 3NT</li>
+    </ol> 
+</details>
 
-### Board 11
+
+### Board 5
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SQJ8HAJD8632CAQ75&s=S54HQ2DAKJ54CKJ94" style="border: none"></iframe>
 
-### Board 12
+<iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=ST42HA53DA5CAQ965&s=SA75HK2DQT2CKT742" style="border: none"></iframe>
+
+<details>
+  <summary>[Bidding - Click To Reveal]</summary>
+
+    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2np3n" style="border: none"></iframe>  
+    <ol>
+        <li>North opens 1♦️</li>
+        <li>South bids 2♦️</li>
+        <li>North has a stopper in ❤️ and ♠️, and a minimum hand, so bids 2NT</li>
+        <li>South has a maximum so bids 3NT</li>
+    </ol> 
+</details>
+
+
+
+## TODO:  ANNOTATE below this line
+
+### Board a
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SK72HQJ7DAQ76C632&s=S8HK54DJT532CAK74" style="border: none"></iframe>
 
-### Board 13
+### Board b
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SKQ4HT97DAT8CAJ72&s=SA7HKJ2DK7542CKQ5" style="border: none"></iframe>
 
-### Board 14
+### Board c
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SKQ32HQ93DK6CKQT8&s=SA5HAJDJT74CA7543" style="border: none"></iframe>
 
-### Board 15
+### Board d
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SAQT8HQJ9DA972CA5&s=SJ9HA4DKQJ54CQ876" style="border: none"></iframe>
+
+### Board e
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SQ842HAT7DJCKQ975&s=SAK7HKQD87653C642" style="border: none"></iframe>
