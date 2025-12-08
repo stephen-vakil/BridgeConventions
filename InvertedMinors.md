@@ -56,9 +56,12 @@ graph TD
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SKQ2HJ98DAT842CA7&s=ST6HAK7DKJ76CQJT8" style="border: none"></iframe>
 
 <details>
-  <summary>Bidding</summary>
-  
-  To do sample here 
+  <summary>[Bidding - Click To Reveal]</summary>
+  - North opens 1♦️
+  - South bids 2♦️
+  - North has a stopper in ♠️, but not ❤️, so bids 2♠️
+  - South has ❤️ and 14hcp, so bids 3NT
+  <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2sp3n" style="border: none"></iframe>  
 </details>
 
 
