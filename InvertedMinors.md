@@ -50,7 +50,6 @@ graph TD
 
 
 # Sample Hands (TO DO)
-**♠️**
-**❤️**
-**♦️**
-**♣️**
+<iframe width="200px" height="200px" src="http://www.bridgebase.com/tools/handviewer.html?n=SQJ65HA87DKT7CAT5&s=SAK4H3DA853CJ9863"></iframe>
+
+<iframe width="200px" height="200px" src="http://www.bridgebase.com/tools/handviewer.html?n=SAQT7HA94D62CQJ74&s=SK5HKDAKJ854CAT53"></iframe>
