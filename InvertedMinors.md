@@ -54,30 +54,6 @@ graph TD
     InvertedOtherMinor -->|No ♣️ stopper| InvertedOtherMinorNoOtherMinor[3♦️]
 ```
 
-# Alternate System A - Bid your stoppers (StopperSystem)
-
-# Alternate System B - Clubs same as Diamonds
-```mermaid
-graph TD
-
-%% Definitions
-    OpenMinor["1♣️ opened"]
-    InvertedMinor["2♣️"]
-%% Bidding flow
-    OpenMinor -->|"No 4 card major, 5+ ♣️ and 10+ HCP"| InvertedMinor
-    OpenMinor -->|4 card major| Bid4cardMajor[Bid 4 card major]
-
-    InvertedMinor -->|❤️ stopper but not ♠️| Inverted2H[2 ❤️]
-    InvertedMinor -->|♠️ stopper but not ❤️| Inverted2S[2 ♠️]
-    InvertedMinor -->|♠️ and ❤️ stopper, medium hand| Inverted2NT[2NT]
-    InvertedMinor -->|♠️ and ❤️ stopper, maximum hand| Inverted3NT[3NT]
-    InvertedMinor -->|♠️ and ❤️ stopper, Concerned about ♦️| InvertedOtherMinor["2♦️"]
-    InvertedMinor -->|No stoppers in ♠️ or ❤️| InvertedRebid[3♣️]
-
-    InvertedOtherMinor -->|♦️ stopped| InvertedOtherMinor2N[2/3NT]
-    InvertedOtherMinor -->|No ♦️ stopper | InvertedOtherMinorNoOtherMinor[3♣️]
-```
-
 
 # Sample Hands
 
@@ -96,19 +72,6 @@ graph TD
     </ol> 
 </details>
 
-##### StopperSystem
-<details>
-  <summary>[Bidding - Click To Reveal]</summary>
-
-    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2sp3n" style="border: none"></iframe>  
-    <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
-        <li>North has a stopper in ♠️, but not ❤️, so bids 2♠️</li>
-        <li>South has ❤️ and ♣️ and 14hcp, so bids 3NT</li>
-    </ol> 
-</details>
-
 ### Board 2
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SQJHA2DA8632CK632&s=SK2HQJDKJT95CA984" style="border: none"></iframe>
 
@@ -124,19 +87,6 @@ graph TD
     </ol> 
 </details>
 
-##### StopperSystem
-<details>
-  <summary>[Bidding - Click To Reveal]</summary>
-
-    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2hp3n" style="border: none"></iframe>  
-    <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
-        <li>North has a stopper in ❤️ so bids 2❤️</li>
-        <li>South has a stopper in ♠️ with the K and in ♣️ and 14hcp so bids 3NT</li>
-    </ol> 
-</details>
-
 ### Board 3
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SKQT7HAJ43DQ975C6&s=SA64HDAK43CAJ9743" style="border: none"></iframe>
 
@@ -148,21 +98,6 @@ graph TD
         <li>North opens 1♦️</li>
         <li>South bids 2♦️</li>
         <li>North has a stopper in ❤️ and ♠️, but is concerned about the singleton low ♣️, so bids 3♣️</li>
-        <li>South has a stopper in ♣️ so bids 3NT</li>
-    </ol> 
-</details>
-
-##### StopperSystem
-<details>
-  <summary>[Bidding - Click To Reveal]</summary>
-
-    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2hp2sp3cp3n" style="border: none"></iframe>  
-    <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
-        <li>North has a stopper in ❤️ so bids 2❤️</li>
-        <li>South has a stopped in ♠️ so bids 2♠️</li>
-        <li>North does not have a stopper in ♣️, so bids 3♣️</li>
         <li>South has a stopper in ♣️ so bids 3NT</li>
     </ol> 
 </details>
@@ -183,22 +118,6 @@ graph TD
     </ol> 
 </details>
 
-##### StopperSystem
-<details>
-  <summary>[Bidding - Click To Reveal]</summary>
-
-    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2hp2sp2np3n" style="border: none"></iframe>  
-    <ol>
-        <li>North opens 1♣️</li>
-        <li>South bids 2♣️</li>
-        <li>North has a stopper in ♦️, so bids 2♦️</li>
-        <li>South has a stopper in ❤️ with the K, so bids 2❤️</li>
-        <li>North has a stopper in ♠️ so bids 2♠️</li>
-        <li>South has a stopper in ♣️ and 12hcp, so bids 2NT</li>
-        <li>North has 14hcp, so bids 3NT</li>
-    </ol> 
-</details>
-
 ### Board 5
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SQJ8HAJD8632CAQ75&s=S54HQ2DAKJ54CKJ94" style="border: none"></iframe>
 
@@ -211,21 +130,6 @@ graph TD
         <li>South bids 2♦️</li>
         <li>North has a stopper in ❤️ and ♠️, and a minimum hand, so bids 2NT</li>
         <li>South has a maximum so bids 3NT</li>
-    </ol> 
-</details>
-
-##### StopperSystem
-
-<details>
-  <summary>[Bidding - Click To Reveal]</summary>
-
-    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2hp3cp3n" style="border: none"></iframe>  
-    <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
-        <li>North has a stopper in ❤️, so bids ❤️</li>
-        <li>South has a stopper in ♣️ but not ♠️ so bids 3♣️</li>
-        <li>North has a stopper with the QJx so bids 3NT</li>
     </ol> 
 </details>
 
@@ -245,21 +149,6 @@ graph TD
     </ol> 
 </details>
 
-##### StopperSystem
-<details>
-  <summary>[Bidding - Click To Reveal]</summary>
-
-    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1cp2cp2dp2hp3cp3n" style="border: none"></iframe>  
-    <ol>
-        <li>North opens 1♣️</li>
-        <li>South bids 2♣️</li>
-        <li>North has a stopper in ♦️, so bids 2♦️</li>
-        <li>South has a stopper in ❤️, so bids 2❤️</li>
-        <li>North lacks a stopper in ♠️ but has one in ♣️ so bids 3♣️</li>
-        <li>South has a stopper in ♠️ so bids 3NT</li>
-    </ol> 
-</details>
-
 ### Board 7
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SK72HQJ7DAQ76C632&s=S8HK54DJT532CAK74" style="border: none"></iframe>
 
@@ -272,20 +161,6 @@ graph TD
         <li>South bids 2♦️</li>
         <li>North has a stopper in ❤️ and ♠️, and a minimum hand, so bids 2NT</li>
         <li>With only a minimum hand, south passes</li>
-    </ol> 
-</details>
-
-##### StopperSystem - DIFFERENT CONTRACT
-<details>
-  <summary>[Bidding - Click To Reveal]</summary>
-
-    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2hp3cp3n" style="border: none"></iframe>  
-    <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
-        <li>North has a stopper in ❤️, so bids 2❤️</li>
-        <li>South lacks a stopper in ♠️ but has one in ♣️ so bids 3♣️</li>
-        <li>North has ♠️ stopped so bids 3NT</li>
     </ol> 
 </details>
 
@@ -304,21 +179,6 @@ graph TD
     </ol> 
 </details>
 
-##### StopperSystem
-<details>
-  <summary>[Bidding - Click To Reveal]</summary>
-
-    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp3cp3np5dpp" style="border: none"></iframe>  
-    <ol>
-        <li>North has too many hcp to open 1NT and not enough for 2NT.  North opens 1♦️</li>
-        <li>South bids 2♦️</li>
-        <li>North isn't too interested in NT because of the distributional power of the hand.  North knows they have at least 10♦️ and can find at least 17 total points if you include the length in ♦️.  If North bids 4NT they might get too high and have to play in 6♦️.  North can find out more about south's hand without getting too high by showing a ♣️ stopper.  If South shows stoppers in ❤️ or ♠️ north can consider going to 4NT to ask for keycards.  North will have another chance to bid, so bids 3♣️</li>
-        <li>South has both remaining suits stopped, and does not want to bid 3❤️ because north would bid ♦️ if they don't have ♠️ covered.  South bids 3NT</li>
-        <li>North knows south has stoppers in the two majors.  There's a chance that slam is there, but 4NT would be a quantitative invite.  North bids 5♦️</li>
-        <li>South might figure out north's slam interest, but with 11hcp, probably they pass</li>
-    </ol> 
-</details>
-
 ### Board 9
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SK97HK954DKJ62CQ5&s=SAJ6HA7DT954CAJT6" style="border: none"></iframe>
 
@@ -331,23 +191,6 @@ graph TD
         <li>South bids 2♦️</li>
         <li>North has a stopper in ❤️ and ♠️, and a minimum hand, so bids 2NT</li>
         <li>With 14hcp, north takes it to 3NT</li>
-    </ol> 
-</details>
-
-##### StopperSystem
-
-##### StopperSystem - DIFFERENT CONTRACT (Direction)
-<details>
-  <summary>[Bidding - Click To Reveal]</summary>
-
-    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2hp2sp3dp3n" style="border: none"></iframe>  
-    <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
-        <li>North has a stopper in ❤️ so bids 2❤️</li>
-        <li>South has a stopper in ♠️ so bids 2♠️</li>
-        <li>North has no stopper in ♣️ so bids 3♦️</li>
-        <li>South has a stopper in ♣️ so bids 3NT</li>
     </ol> 
 </details>
 
@@ -366,20 +209,6 @@ graph TD
     </ol> 
 </details>
 
-##### StopperSystem - DIFFERENT CONTRACT
-<details>
-  <summary>[Bidding - Click To Reveal]</summary>
-
-    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2hp3cp3n" style="border: none"></iframe>  
-    <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
-        <li>North has a stopper in ❤️  so bids 2❤️</li>
-        <li>South has no ♠️ but has a stopper in ♣️ so bids 3♣️</li>
-        <li>North has a stopper in ♠️ so bids 3NT</li>
-    </ol> 
-</details>
-
 ### Board 11
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SKQJHQJDAKJ3CQ864&s=SA96HA85D87654CA5" style="border: none"></iframe>
 
@@ -392,21 +221,6 @@ graph TD
         <li>South bids 2♦️</li>
         <li>North has a ton of points.  We are certainly at least in game.  North can still force bidding to continue and learn more about south's hand.  With no stopper in ❤️, north bids ♠️.</li>
         <li>South has ❤️ and 12hcp, so bids 3NT</li>
-        <li>North knows they have slam potential in NT now.  North bids a quantitative invite of 4NT.</li>
-        <li>With only 12hcp, south is pretty close to the minimum for their bids so far, so south passes.</li>
-    </ol> 
-</details>
-
-##### StopperSystem
-<details>
-  <summary>[Bidding - Click To Reveal]</summary>
-
-    <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2hp3np4npp" style="border: none"></iframe>  
-    <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
-        <li>North has a ton of points.  We are certainly at least in game.  North can still force bidding to continue and learn more about south's hand.  With no stopper in ❤️, north bids ♠️.</li>
-        <li>South has ❤️ and ♣️ stopped, and 12hcp, so bids 3NT</li>
         <li>North knows they have slam potential in NT now.  North bids a quantitative invite of 4NT.</li>
         <li>With only 12hcp, south is pretty close to the minimum for their bids so far, so south passes.</li>
     </ol> 
