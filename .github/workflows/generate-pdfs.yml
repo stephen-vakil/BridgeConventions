@@ -36,11 +36,14 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y pandoc fonts-noto fonts-dejavu
 
-      - name: Install weasyprint
-        run: pip install weasyprint
+      - name: Install Python dependencies
+        run: pip install weasyprint pypdf
 
       - name: Generate PDFs
         run: python3 scripts/generate_pdfs.py
+
+      - name: Fill ACBL Convention Card
+        run: python3 scripts/fill_acbl_card.py
 
       - name: Commit PDFs
         run: |

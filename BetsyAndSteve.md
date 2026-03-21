@@ -114,10 +114,8 @@
 |-----|-------------------|
 | 1NT opening | "15 to 17" |
 | 2NT opening | "20 to 21" |
-| 2♣ opening | "Strong, artificial, forcing" |
-| Stayman (2♣/3♣ over NT) | "Stayman" |
-| Jacoby Transfer (2♦/2♥ over NT) | "Transfer to hearts/spades" |
-| Texas Transfer (4♦/4♥ over NT) | "Transfer to hearts/spades" |
+| Jacoby Transfer (2♦/2♥ over NT) | "hearts/spades" |
+| Texas Transfer (4♦/4♥ over NT) | "hearts/spades" |
 | NT overcall | State the range |
 
 **Alerted** (partner says "Alert"):
@@ -134,9 +132,7 @@
 | [Drury 2♣](MajorRaises.md) | Passed hand, 3-card support |
 | [Drury 2♦](MajorRaises.md) | Passed hand, 4-card support |
 | [Inverted minor raise](InvertedMinors.md) | Forcing, 11+ pts, no 4-card major |
-| 2♦ waiting (over 2♣ opening) | Artificial response to strong 2♣ |
 | 2NT response to weak 2-bid | Forcing inquiry |
-| Negative double | Through 3♠ |
 | [Support double](SupportDoubles.md) | Shows exactly 3-card support |
 | Support redouble | Shows exactly 3-card support |
 | [New Minor Forcing](NewMinorForcing.md) | After 1m – 1M – 1NT |
