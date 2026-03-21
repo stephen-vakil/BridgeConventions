@@ -74,8 +74,8 @@ TEXT_FIELDS = {
     "NTO.t.10":    "Jump 2NT = 2 lowest unbid suits",
 
     # Slam
-    "SL.t.8":      "Cuebids show 1st/2nd round controls",
-    "SL.t.9":      "DOPI vs interference",
+    "SL.t.8":      "",
+    "SL.t.9":      "",
 
     # Signals / carding
     "SI.t.8":      "A from AK vs trumps",
@@ -106,7 +106,7 @@ CHECKBOXES = {
     # 1H/1S — Major openings
     "1H1S.c.2":   True,   # 5-card majors, 1st/2nd seat
     "1H1S.c.4":   True,   # 5-card majors, 3rd/4th seat
-    "1H1S.c.5":   True,   # 1NT response: Forcing
+    "1H1S.c.5":   False,   # 1NT response: Forcing
     "1H1S.c.8":   True,   # Artificial raise: 2NT (Jacoby 2NT)
     "1H1S.c.10":  True,   # Artificial raise: Splinter
     "1H1S.c.12":  True,   # Drury: 2C
@@ -123,8 +123,8 @@ CHECKBOXES = {
 
     # 1C — minor opening
     "1C.c.3":     True,   # Min opening length: 3 cards
-    "1C.c.19":    True,   # Single raise: Inv+ (Inverted minor, 11+)
-    "1C.c.21":    True,   # Jump raise: Weak (preemptive)
+    "1C.c.18":    True,   # Single raise: Inv+ (Inverted minor, 11+)
+    "1C.c.20":    True,   # Jump raise: Weak (preemptive)
 
     # 1D — minor opening
     "1D.c.3":     True,   # Min opening length: 3 cards
@@ -163,8 +163,10 @@ CHECKBOXES = {
     "SI.c.3":     True,   # Standard Attitude on Partner's lead
 
     # Direct cuebids — Michaels
-    "DC.c.1":     True,   # Michaels over minor opening
-    "DC.c.2":     True,   # Michaels over major opening
+    "DC.c.1":     False,  # Michaels over artificial 1c/1d, not on
+    "DC.c.2":     False,  # Michaels over quasi-natural, not on
+    "DC.c.3":     True,   # Michaels over minor opening - natural
+    "DC.c.4":     True,   # Michaels over major opening - natural
 
     # Vs preempts
     "VP.c.3":     True,   # Takeout double  GUESSED
