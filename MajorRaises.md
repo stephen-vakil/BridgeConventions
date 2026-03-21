@@ -11,6 +11,29 @@
 - Because your honors are usually not in the splinter suit, partner could potentially explore slam if there's a good fit in other suits and they don't have many HCP in the splinter suit.
 - Jacoby 2NT can be slam-worthy.  It puts you in control of deciding how high.
 
+## Splinter Bids
+
+A splinter is a **double-jump shift** in the short suit, showing game-forcing support for opener's major.
+
+**Requirements:**
+- 4-card support for opener's major
+- 13+ total points (HCP + distribution)
+- A singleton or void in the splinter suit (usually not an honor)
+
+**How it works:**
+- The splinter bid identifies your short suit, letting opener evaluate how useful their high cards are in that suit
+- Wasted honors (K, Q) in your short suit are bad news; low cards or voids there are good
+- Opener is in control of how high to go
+
+**Splinter vs. Jacoby 2NT:**
+- Use a splinter when you are likely game-forcing but not slam-certain — you want partner to evaluate
+- Use Jacoby 2NT when you are slam-worthy and want to be in control of the slam decision
+- A hand with a void is often better described by Jacoby 2NT (since partner may not realize how powerful a void is without more information)
+
+**After a splinter:**
+- Opener signs off at game with wasted values in the short suit
+- Opener cuebids or bids 4NT (RKC) with interest in slam
+
 ```mermaid
 
 graph TD
