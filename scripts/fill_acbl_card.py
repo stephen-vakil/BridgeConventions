@@ -40,14 +40,14 @@ TEXT_FIELDS = {
     "1H1S.t.11":   "Bergen (See below)",
     "1H1S.t.15":   "2way Rev", # Drury
     "1H1S.t.16":   "",  # Other.  not needed
-    "1H1S.t.17":   "Bergen - 4 card support and 2M=4-6  3C=10-12  3D=7-9",  
+    "1H1S.t.21":   "Bergen - 4 card support and 2M=4-6  3C=10-12  3D=7-9",  
 
 
 
     # 2C strong opening
     "2C.t.1":      "22+",
     "2C.t.2":      "Any shape",
-    "2C.t.6":      "2D = waiting (alertable)",
+    "2C.t.6":      "",   # Steps text, not applicable
 
     # 2NT opening — range
     "2NT.t.1":     "20",
@@ -127,16 +127,17 @@ CHECKBOXES = {
 
     # 1C — minor opening
     "1C.c.3":     True,   # Min opening length: 3 cards
-    "1C.c.18":    True,   # Single raise: Inv+ (Inverted minor, 11+)
-    "1C.c.20":    True,   # Jump raise: Weak (preemptive)
+    "1C.c.19":    True,   # Single raise: Inv+ (Inverted minor, 11+)
+    "1C.c.21":    True,   # Jump raise: Weak (preemptive)
 
     # 1D — minor opening
     "1D.c.3":     True,   # Min opening length: 3 cards
-    "1D.c.18":    True,   # Single raise: Inv+ (Inverted minor, 11+)
-    "1D.c.20":    True,   # Jump raise: Weak (preemptive)
+    "1D.c.17":    True,   # Single raise: Inv+ (Inverted minor, 11+)
+    "1D.c.19":    True,   # Jump raise: Weak (preemptive)
 
     # 2C — strong artificial
-    "2C.c.3b":    True,   # 2D = waiting response  GUESSED
+    "2C.c.3b":    False,  # Negative
+    "2C.c.3c":    True,   # 2D = waiting response
 
     # 2D / 2H / 2S — weak twos
     "2D.c.4":     True,   # Weak two
@@ -173,7 +174,7 @@ CHECKBOXES = {
     "DC.c.4":     True,   # Michaels over major opening - natural
 
     # Vs preempts
-    "VP.c.3":     True,   # Takeout double  GUESSED
+    "VP.c.3":     False,   # Penalty
 
     # Other conventions — NMF
     "O.c.3":      True,   # 2-Way New Minor Forcing
