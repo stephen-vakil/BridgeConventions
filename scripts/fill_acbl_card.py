@@ -37,9 +37,12 @@ TEXT_FIELDS = {
     "1NT.t.2":     "17",
 
     # Major openings — free-text descriptions of non-standard raises
-    "1H1S.t.11":   "Bergen: 2M=4-6  3C=10-12  3D=7-9  (all 4-card support)",
-    "1H1S.t.15":   "2-way Reverse Drury (2C=3-card, 2D=4-card support)",
-    "1H1S.t.16":   "3NT = 13-15 balanced, 3-card support",
+    "1H1S.t.11":   "Bergen (See below)",
+    "1H1S.t.15":   "2way Rev", # Drury
+    "1H1S.t.16":   "",  # Other.  not needed
+    "1H1S.t.17":   "Bergen - 4 card support and 2M=4-6  3C=10-12  3D=7-9",  
+
+
 
     # 2C strong opening
     "2C.t.1":      "22+",
@@ -64,37 +67,38 @@ TEXT_FIELDS = {
     "OC.t.2":      "15",   # 1-level HCP high
     "OC.t.4":      "10",   # 2-level HCP low
     "OC.t.5":      "15",   # 2-level HCP high
-    "OC.t.10":     "Intermediate: sound vul, light NV",
+    "OC.t.10":     "", # Conventional text box
 
     # NT overcalls (NTO)
     "NTO.t.1":     "15",   # direct 1NT low
     "NTO.t.2":     "18",   # direct 1NT high
     "NTO.t.4":     "12",   # balancing 1NT low
     "NTO.t.5":     "14",   # balancing 1NT high
-    "NTO.t.10":    "Jump 2NT = 2 lowest unbid suits",
+    "NTO.t.10":    "",     # Other box - no need to fill
 
     # Slam
     "SL.t.8":      "",
     "SL.t.9":      "",
 
     # Signals / carding
-    "SI.t.8":      "A from AK vs trumps",
+    "SI.t.8":      "",  # Exceptions - none
     "SI.t.14":     "Suit preference secondary",
-    "SI.t.15":     "A from AK vs suits",
+    "SI.t.15":     "",  # Second line of description, not needed
 
     # Direct cuebids — Michaels description
-    "DC.t.13":     "Over minor: both majors. Over major: other major + a minor.",
+    "DC.t.13":     "", # No need for explanation in "Describe" field
 
     # Defense vs 1NT — Landy
-    "V1NT.t.1":    "Landy",
-    "V1NT.t.2":    "2C = 5/4+ in both majors",
+    "V1NT.t.5":    "Landy",
+    "V1NT.t.6":    "5/4+ majors",
 
     # Vs preempts
-    "VP.t.1":      "Double = takeout thru 4S",
+    "VP.t.1":      "", # 2NT overcall box, left empty
+    "VP.t.2":      "4S", # Takeout thru 
 
     # Other conventions (O section = NMF / 4th-suit area at bottom of card)
-    "O.t.1":       "New Minor Forcing",
-    "O.t.2":       "Unbid minor forcing after 1m-1M-1NT",
+    "O.t.1":       "",  # Jump shift response
+    "O.t.2":       "",  # Vs very strong open
 }
 
 # ---------------------------------------------------------------------------

@@ -8,6 +8,7 @@ on:
       - ".github/workflows/generate-pdfs.yml"
       - "print.css"
       - "scripts/generate_pdfs.py"
+      - "scripts/fill_acbl_card.py"
       - "puppeteer-config.json"
   workflow_dispatch:
 
