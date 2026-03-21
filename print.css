@@ -1,0 +1,137 @@
+/* Bridge Conventions — Print Stylesheet */
+
+body {
+  font-family: "Georgia", "DejaVu Serif", "Noto Serif", serif;
+  font-size: 11pt;
+  line-height: 1.5;
+  color: #000;
+}
+
+h1 {
+  font-size: 18pt;
+  border-bottom: 2px solid #333;
+  padding-bottom: 4px;
+  margin-top: 0;
+  page-break-after: avoid;
+}
+
+h2 {
+  font-size: 14pt;
+  border-bottom: 1px solid #666;
+  margin-top: 1.5em;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-size: 12pt;
+  margin-top: 1em;
+  page-break-after: avoid;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  font-size: 10pt;
+  page-break-inside: avoid;
+}
+
+th {
+  background-color: #ddd;
+  border: 1px solid #888;
+  padding: 5px 8px;
+  text-align: left;
+  font-weight: bold;
+}
+
+td {
+  border: 1px solid #aaa;
+  padding: 4px 8px;
+  vertical-align: top;
+}
+
+tr:nth-child(even) td {
+  background-color: #f6f6f6;
+}
+
+/* Lists */
+ul, ol {
+  margin: 0.4em 0;
+  padding-left: 1.5em;
+}
+
+li {
+  margin: 0.15em 0;
+}
+
+/* Images (rendered mermaid diagrams) */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+  page-break-inside: avoid;
+}
+
+/* Blockquote used for the Announce/Alert note */
+blockquote {
+  border-left: 4px solid #cc0000;
+  background: #fff5f5;
+  margin: 0.75em 0;
+  padding: 0.5em 1em;
+  page-break-inside: avoid;
+  font-size: 10pt;
+}
+
+/* Horizontal rules become page breaks in the combined PDF */
+hr {
+  border: none;
+  margin: 0;
+  page-break-after: always;
+}
+
+/* Explicit page-break divs */
+div[style*="page-break-after"] {
+  page-break-after: always;
+}
+
+code {
+  font-family: "DejaVu Sans Mono", "Noto Mono", monospace;
+  font-size: 9pt;
+  background: #f0f0f0;
+  padding: 1px 3px;
+  border-radius: 2px;
+}
+
+pre {
+  font-family: "DejaVu Sans Mono", "Noto Mono", monospace;
+  font-size: 9pt;
+  background: #f0f0f0;
+  padding: 0.75em;
+  page-break-inside: avoid;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Page layout */
+@page {
+  size: letter;
+  margin: 0.75in;
+
+  @bottom-center {
+    content: counter(page) " of " counter(pages);
+    font-size: 9pt;
+    color: #666;
+    font-family: "Georgia", serif;
+  }
+}

@@ -1,0 +1,51 @@
+name: Generate PDFs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**.md"
+      - ".github/workflows/generate-pdfs.yml"
+      - "print.css"
+      - "scripts/generate_pdfs.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-pdfs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install mermaid-cli
+        run: npm install -g @mermaid-js/mermaid-cli
+
+      - name: Install pandoc
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y pandoc fonts-noto fonts-dejavu
+
+      - name: Install weasyprint
+        run: pip install weasyprint
+
+      - name: Generate PDFs
+        run: python3 scripts/generate_pdfs.py
+
+      - name: Commit PDFs
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add pdfs/
+          if git diff --staged --quiet; then
+            echo "No PDF changes to commit."
+          else
+            git commit -m "chore: regenerate PDFs [skip ci]"
+            git push
+          fi
