@@ -84,11 +84,10 @@ blockquote {
   font-size: 10pt;
 }
 
-/* Horizontal rules become page breaks in the combined PDF */
 hr {
   border: none;
-  margin: 0;
-  page-break-after: always;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
 }
 
 /* Explicit page-break divs */

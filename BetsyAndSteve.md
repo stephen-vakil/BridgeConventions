@@ -42,7 +42,7 @@
 | Response | Points | Notes |
 |----------|--------|-------|
 | [Inverted single raise](InvertedMinors.md) | 11+ | Forcing; no 4-card major; **alertable** |
-| Double raise | 0–9 | Preemptive/weak |
+| Double raise | 0–9 | Preemptive/weak, **alertable** |
 
 ---
 
@@ -50,7 +50,7 @@
 
 | Bid | Points | Shape | Responses | Notes |
 |-----|--------|-------|-----------|-------|
-| 2♣ | 22+ | Any | 2♦ = waiting (**alertable**) | **Announced**: "strong, artificial, forcing" |
+| 2♣ | 22+ | Any | 2♦ = waiting  |  |
 | 2♦ / 2♥ / 2♠ | 5–11 | 6-card suit | 2NT = forcing inquiry (**alertable**) | |
 
 ---

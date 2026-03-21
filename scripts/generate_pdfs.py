@@ -64,6 +64,7 @@ def render_mermaid(content: str, base_name: str) -> str:
                     "-o", str(img_path),
                     "-b", "white",
                     "--width", "900",
+                    "--puppeteerConfigFile", str(REPO_ROOT / "puppeteer-config.json"),
                 ],
                 capture_output=True,
                 text=True,
