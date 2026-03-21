@@ -40,7 +40,7 @@ TEXT_FIELDS = {
     "1H1S.t.11":   "Bergen (See below)",
     "1H1S.t.15":   "2way Rev", # Drury
     "1H1S.t.16":   "",  # Other.  not needed
-    "1H1S.t.21":   "Bergen - 4 card support and 2M=4-6  3C=10-12  3D=7-9",  
+    "1H1S.t.23":   "Bergen - 4 card support and 2M=4-6  3C=10-12  3D=7-9",  
 
 
 
@@ -159,6 +159,7 @@ CHECKBOXES = {
     # NT overcalls
     "NTO.c.3":    True,   # Direct 1NT: Systems On
     "NTO.c.6":    True,   # Balancing 1NT: Systems On
+    "NTO.c.9":    True,   # Unusual 2NT
 
     # Slam
     "SL.c.7":     True,   # 4NT = RKC 1430
