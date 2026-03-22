@@ -103,7 +103,7 @@ def to_pdf(content: str, output: Path, title: str) -> None:
                 "--css", str(CSS_FILE),
                 "--standalone",
                 "--metadata", f"title={title}",
-                "--from", "markdown+raw_html",
+                "--from", "markdown-yaml_metadata_block+raw_html",
             ],
             capture_output=True,
             text=True,
