@@ -18,9 +18,6 @@ Used by opener to show 3-card support for responder's major when opponents inter
 **Why it matters:**
 Responder now knows whether to expect 3- or 4-card support when bidding game or slam, which affects how they evaluate their hand.
 
-**Range for support double:**
-*(fill in — is there a point range, or does it apply regardless?)*
-
 **After the support double:**
 *(fill in — what does responder do next?)*
 

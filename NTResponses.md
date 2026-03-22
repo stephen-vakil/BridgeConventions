@@ -53,7 +53,8 @@ Covers responses to 1NT (15–17) and 2NT (20–21) openings.
             <th style="border:1px solid #aab8cc;padding:8px 12px;background-color:#eef2f7;text-align:left;">6 in one major</th>
             <td style="border:1px solid #aab8cc;padding:8px 12px;">Transfer and pass</td>
             <td style="border:1px solid #aab8cc;padding:8px 12px;">Transfer and 3 of major</td>
-            <td style="border:1px solid #aab8cc;padding:8px 12px;">Transfer to game
+            <td style="border:1px solid #aab8cc;padding:8px 12px;">
+                Transfer to game
                 <ul style="margin:4px 0 0 0;padding-left:18px;">
                 <li>No slam interest → Texas Transfer (4 level transfer)</li>
                 <li>Potential slam interest → Jacoby Transfer (2 level transfer)</li>
@@ -138,7 +139,8 @@ No invitational zone — 4+ HCP opposite 20–21 is game-forcing. Stayman is 3�
             <th style="border:1px solid #aab8cc;padding:8px 12px;background-color:#dce6f0;text-align:left;">2–3 majors</th>
             <td style="border:1px solid #aab8cc;padding:8px 12px;">Pass</td>
             <td style="border:1px solid #aab8cc;padding:8px 12px;">3NT</td>
-            <td style="border:1px solid #aab8cc;padding:8px 12px;">4NT (quantitative)
+            <td style="border:1px solid #aab8cc;padding:8px 12px;">
+                4NT (quantitative)
                 <ul style="margin:4px 0 0 0;padding-left:18px;">
                 <li>Opener bids 6NT with 21, passes with 20</li>
                 </ul>
