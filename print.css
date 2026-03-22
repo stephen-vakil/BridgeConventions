@@ -142,6 +142,11 @@ hr {
   margin: 1em 0;
 }
 
+/* Sections excluded from print */
+.no-print {
+  display: none;
+}
+
 /* Explicit page-break divs */
 div[style*="page-break-after"] {
   page-break-after: always;

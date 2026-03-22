@@ -55,6 +55,8 @@ graph TD
 ```
 
 
+<div class="no-print">
+
 # Sample Hands
 
 ### Board 1
@@ -325,4 +327,4 @@ graph TD
 ### Board t
 <iframe width="200px" height="200px" src="https://www.bridgebase.com/tools/handviewer.html?n=SAK94HK82DAT76CT4&s=S832HAJDJ542CAJ97" style="border: none"></iframe>
 
-
+</div>
