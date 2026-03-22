@@ -20,7 +20,7 @@ Defense convention used over an opponent's 1NT opening.
 
 | Advancer bid | Meaning |
 |-------------|---------|
-| 2♥ | Preference for hearts (could be a doubleton) |
+| 2<span style="color:red;">♥</span> | Preference for hearts (could be a doubleton) |
 | 2♠ | Preference for spades (could be a doubleton) |
 | 2NT | *(fill in)* |
 | 3♣ | *(fill in — natural? asking for better major?)* |

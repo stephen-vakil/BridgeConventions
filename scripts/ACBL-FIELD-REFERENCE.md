@@ -13,7 +13,7 @@ Form has 433 fields. Field naming: `SECTION.c.NUMBER` = checkbox, `SECTION.t.NUM
 
 ---
 
-## 1H1S — Major Openings (1♥ / 1♠)
+## 1H1S — Major Openings (1<span style="color:red;">♥</span> / 1♠)
 
 ### Checkboxes
 
@@ -25,12 +25,12 @@ Form has 433 fields. Field naming: `SECTION.c.NUMBER` = checkbox, `SECTION.t.NUM
 | `c.4` | Min opening length: **5 cards**, 3rd/4th seat |
 | `c.5` | 1NT response: **Forcing** |
 | `c.6` | 1NT response: **Semi-Forcing** |
-| `c.7` | **Bypass ♠** — may bypass spades over 1♥ |
+| `c.7` | **Bypass ♠** — may bypass spades over 1<span style="color:red;">♥</span> |
 | `c.8` | Artificial raise: **2NT** (Jacoby 2NT) |
 | `c.9` | Artificial raise: **3NT** |
 | `c.10` | Artificial raise: **Splinter** |
 | `c.12` | **Drury 2♣** |
-| `c.13` | **Drury 2♦** |
+| `c.13` | **Drury 2<span style="color:red;">♦</span>** |
 | `c.14` | Drury: **In Competition** |
 | `c.17` | Jump raise uncontested: **Weak** (preemptive) |
 | `c.18` | Jump raise uncontested: **Mixed** |
@@ -60,8 +60,8 @@ Form has 433 fields. Field naming: `SECTION.c.NUMBER` = checkbox, `SECTION.t.NUM
 | `t.2` | HCP range high end |
 | `t.3` | Seat/vul modifier (low) |
 | `t.5` | Seat/vul modifier |
-| `t.11` | 2♦ "Other" text |
-| `t.14` | 2♥ "Other" text |
+| `t.11` | 2<span style="color:red;">♦</span> "Other" text |
+| `t.14` | 2<span style="color:red;">♥</span> "Other" text |
 | `t.17` | 2♠ "Other" text |
 | `t.20` | 2NT "Other" text |
 | `t.26` | Smolen/4♣ transfer detail |
@@ -79,18 +79,18 @@ Form has 433 fields. Field naming: `SECTION.c.NUMBER` = checkbox, `SECTION.t.NUM
 | `c.6` | 2♣ = **Stayman** |
 | `c.7` | 2♣ = **Puppet Stayman** |
 | `c.8` | 2♣ = **Other** |
-| `c.9` | 2♦ = **Natural** |
-| `c.10` | 2♦ = **Transfer** (to hearts — Jacoby) |
-| `c.12` | 2♥ = **Natural** |
-| `c.13` | 2♥ = **Transfer** (to spades — Jacoby) |
+| `c.9` | 2<span style="color:red;">♦</span> = **Natural** |
+| `c.10` | 2<span style="color:red;">♦</span> = **Transfer** (to hearts — Jacoby) |
+| `c.12` | 2<span style="color:red;">♥</span> = **Natural** |
+| `c.13` | 2<span style="color:red;">♥</span> = **Transfer** (to spades — Jacoby) |
 | `c.15` | 2♠ = **Natural** |
 | `c.16` | 2♠ = **Transfer** (to clubs/NT) |
 | `c.18` | 2NT = **Natural** |
 | `c.19` | 2NT = **Transfer** |
 | `c.21` | **Smolen** |
 | `c.22` | 4♣ transfer (Texas to hearts) |
-| `c.23` | 4♦ transfer (Texas to spades) |
-| `c.24` | 4♥ quantitative/natural |
+| `c.23` | 4<span style="color:red;">♦</span> transfer (Texas to spades) |
+| `c.24` | 4<span style="color:red;">♥</span> quantitative/natural |
 | `c.25` | After interference: double = **Negative** |
 | `c.27` | **Lebensohl** |
 | `c.30` | Second range: Same responses (Y) |
@@ -164,7 +164,7 @@ Form has 433 fields. Field naming: `SECTION.c.NUMBER` = checkbox, `SECTION.t.NUM
 | `t.3a` | Response text (paired with c.3b) |
 | `t.6` | Additional response description |
 | `t.12`, `t.13` | Other text fields |
-| `c.3b` | 2♦ = waiting response (**GUESSED** — paired with t.3a) |
+| `c.3b` | 2<span style="color:red;">♦</span> = waiting response (**GUESSED** — paired with t.3a) |
 | `c.4`–`c.11` | Other response options (meanings not fully confirmed) |
 
 ---
@@ -365,7 +365,7 @@ Form has 433 fields. Field naming: `SECTION.c.NUMBER` = checkbox, `SECTION.t.NUM
 
 ## DC — Direct Cuebids
 
-### Checkboxes (3 rows × 4 columns: Michaels / Natural / Other, over ♣♦ / ♥♠)
+### Checkboxes (3 rows × 4 columns: Michaels / Natural / Other, over ♣<span style="color:red;">♦</span> / <span style="color:red;">♥</span>♠)
 
 | Field | Meaning |
 |-------|---------|

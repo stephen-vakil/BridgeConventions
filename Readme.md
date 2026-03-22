@@ -2,7 +2,7 @@
 
 | Document | Markdown | PDF |
 |----------|----------|-----|
-| **Convention Card** | [BetsyAndSteve.md](BetsyAndSteve.md) | [Standard PDF](pdfs/BetsyAndSteve.pdf) · [ACBL Card](pdfs/ACBL-Convention-Card.pdf) |
+| **Convention Card** | [BetsyAndSteve.md](BetsyAndSteve.md) | [PDF](pdfs/BetsyAndSteve.pdf) |
 | **Major Raises** (Bergen, Jacoby 2NT, Splinter, Drury) | [MajorRaises.md](MajorRaises.md) | [PDF](pdfs/MajorRaises.pdf) |
 | **Inverted Minors** | [InvertedMinors.md](InvertedMinors.md) | [PDF](pdfs/InvertedMinors.pdf) |
 | **NT Responses** (Stayman, Jacoby, Texas Transfers) | [NTResponses.md](NTResponses.md) | [PDF](pdfs/NTResponses.pdf) |

@@ -20,14 +20,14 @@ graph TD
     InvertedMinor -->|♠️ stopper but not ❤️| Inverted2S[2 ♠️]
     InvertedMinor -->|♠️ and ❤️ stopper, medium hand| Inverted2NT[2NT]
     InvertedMinor -->|♠️ and ❤️ stopper, maximum hand| Inverted3NT[3NT]
-    InvertedMinor -->|Concerned about ♦️| InvertedOtherMinor["2♦️"]
+    InvertedMinor -->|Concerned about <span style="color:red;">♦</span>️| InvertedOtherMinor["2<span style="color:red;">♦</span>️"]
     InvertedMinor -->|No stoppers in ♠️ or ❤️| InvertedRebid[3♣️]
 
-    InvertedOtherMinor -->|♦️ + ❤️ stopper, no ♠️ stopper| InvertedOtherMinor2H[2 ❤️]
-    InvertedOtherMinor -->|♦️ + ♠️ stopper, no ❤️ stopper| InvertedOtherMinor2S[2 ♠️]
-    InvertedOtherMinor -->|♦️ + ❤️ + ♠️ stopped| InvertedOtherMinor2N[2/3NT]
-    InvertedOtherMinor -->|No ♦️ stopper | InvertedOtherMinorNoOtherMinor[3♣️]
-    InvertedOtherMinor -->|♦️ stopper but no stoppers in ♠️ or ❤️| InvertedOtherMinorYesButNoMajorStopper[3♦️]
+    InvertedOtherMinor -->|<span style="color:red;">♦</span>️ + ❤️ stopper, no ♠️ stopper| InvertedOtherMinor2H[2 ❤️]
+    InvertedOtherMinor -->|<span style="color:red;">♦</span>️ + ♠️ stopper, no ❤️ stopper| InvertedOtherMinor2S[2 ♠️]
+    InvertedOtherMinor -->|<span style="color:red;">♦</span>️ + ❤️ + ♠️ stopped| InvertedOtherMinor2N[2/3NT]
+    InvertedOtherMinor -->|No <span style="color:red;">♦</span>️ stopper | InvertedOtherMinorNoOtherMinor[3♣️]
+    InvertedOtherMinor -->|<span style="color:red;">♦</span>️ stopper but no stoppers in ♠️ or ❤️| InvertedOtherMinorYesButNoMajorStopper[3<span style="color:red;">♦</span>️]
 
     InvertedOtherMinorYesButNoMajorStopper -->|♠️ and ❤️ stopper| InvertedOtherMinorYesButNoMajorStopper3NT[3NT]
     InvertedOtherMinorYesButNoMajorStopper -->|Does not have both majors stopped| InvertedOtherMinorYesButNoMajorStopper4C[4♣️]
@@ -37,10 +37,10 @@ graph TD
 graph TD
 
 %% Definitions
-    OpenMinor["1♦️ opened"]
-    InvertedMinor["2♦️"]
+    OpenMinor["1<span style="color:red;">♦</span>️ opened"]
+    InvertedMinor["2<span style="color:red;">♦</span>️"]
 %% Bidding flow
-    OpenMinor -->|"No 4 card major, 4+ ♦️ and 10+ HCP"| InvertedMinor
+    OpenMinor -->|"No 4 card major, 4+ <span style="color:red;">♦</span>️ and 10+ HCP"| InvertedMinor
     OpenMinor -->|4 card major| Bid4cardMajor[Bid 4 card major]
 
     InvertedMinor -->|❤️ stopper but not ♠️| Inverted2H[2 ❤️]
@@ -48,10 +48,10 @@ graph TD
     InvertedMinor -->|♠️ and ❤️ stopper, medium hand| Inverted2NT[2NT]
     InvertedMinor -->|♠️ and ❤️ stopper, maximum hand| Inverted3NT[3NT]
     InvertedMinor -->|♠️ and ❤️ stopper,Concerned about ♣️| InvertedOtherMinor["3♣️"]
-    InvertedMinor -->|No stoppers in ♠️ or ❤️| InvertedRebid[3♦️]
+    InvertedMinor -->|No stoppers in ♠️ or ❤️| InvertedRebid[3<span style="color:red;">♦</span>️]
 
     InvertedOtherMinor -->|♣️ stopped| InvertedOtherMinor2N[3NT]
-    InvertedOtherMinor -->|No ♣️ stopper| InvertedOtherMinorNoOtherMinor[3♦️]
+    InvertedOtherMinor -->|No ♣️ stopper| InvertedOtherMinorNoOtherMinor[3<span style="color:red;">♦</span>️]
 ```
 
 
@@ -65,8 +65,8 @@ graph TD
 
     <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2sp3n" style="border: none"></iframe>  
     <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
+        <li>North opens 1<span style="color:red;">♦</span>️</li>
+        <li>South bids 2<span style="color:red;">♦</span>️</li>
         <li>North has a stopper in ♠️, but not ❤️, so bids 2♠️</li>
         <li>South has ❤️ and 14hcp, so bids 3NT</li>
     </ol> 
@@ -80,8 +80,8 @@ graph TD
 
     <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2hp3n" style="border: none"></iframe>  
     <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
+        <li>North opens 1<span style="color:red;">♦</span>️</li>
+        <li>South bids 2<span style="color:red;">♦</span>️</li>
         <li>North has a stopper in ❤️, but is not sure about ♠️, so bids 2❤️</li>
         <li>South has a stopper in ♠️ with the K, and 14hcp, so bids 3NT</li>
     </ol> 
@@ -95,8 +95,8 @@ graph TD
 
     <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp3cp3n" style="border: none"></iframe>  
     <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
+        <li>North opens 1<span style="color:red;">♦</span>️</li>
+        <li>South bids 2<span style="color:red;">♦</span>️</li>
         <li>North has a stopper in ❤️ and ♠️, but is concerned about the singleton low ♣️, so bids 3♣️</li>
         <li>South has a stopper in ♣️ so bids 3NT</li>
     </ol> 
@@ -126,8 +126,8 @@ graph TD
 
     <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2np3n" style="border: none"></iframe>  
     <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
+        <li>North opens 1<span style="color:red;">♦</span>️</li>
+        <li>South bids 2<span style="color:red;">♦</span>️</li>
         <li>North has a stopper in ❤️ and ♠️, and a minimum hand, so bids 2NT</li>
         <li>South has a maximum so bids 3NT</li>
     </ol> 
@@ -157,8 +157,8 @@ graph TD
 
     <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2npp" style="border: none"></iframe>  
     <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
+        <li>North opens 1<span style="color:red;">♦</span>️</li>
+        <li>South bids 2<span style="color:red;">♦</span>️</li>
         <li>North has a stopper in ❤️ and ♠️, and a minimum hand, so bids 2NT</li>
         <li>With only a minimum hand, south passes</li>
     </ol> 
@@ -172,9 +172,9 @@ graph TD
 
     <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp5dpp" style="border: none"></iframe>  
     <ol>
-        <li>North has too many hcp to open 1NT and not enough for 2NT.  North opens 1♦️</li>
-        <li>South bids 2♦️</li>
-        <li>North isn't too interested in NT because of the distributional power of the hand.  North knows they have at least 10♦️ and can find at least 17 total points if you include the length in ♦️.  If North bids 4NT they might get too high and have to play in 6♦️, so North bids 5♦️</li>
+        <li>North has too many hcp to open 1NT and not enough for 2NT.  North opens 1<span style="color:red;">♦</span>️</li>
+        <li>South bids 2<span style="color:red;">♦</span>️</li>
+        <li>North isn't too interested in NT because of the distributional power of the hand.  North knows they have at least 10<span style="color:red;">♦</span>️ and can find at least 17 total points if you include the length in <span style="color:red;">♦</span>️.  If North bids 4NT they might get too high and have to play in 6<span style="color:red;">♦</span>️, so North bids 5<span style="color:red;">♦</span>️</li>
         <li>With 11 hcp, the bare minimum, south passes.</li>
     </ol> 
 </details>
@@ -187,8 +187,8 @@ graph TD
 
     <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2np3n" style="border: none"></iframe>  
     <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
+        <li>North opens 1<span style="color:red;">♦</span>️</li>
+        <li>South bids 2<span style="color:red;">♦</span>️</li>
         <li>North has a stopper in ❤️ and ♠️, and a minimum hand, so bids 2NT</li>
         <li>With 14hcp, north takes it to 3NT</li>
     </ol> 
@@ -202,8 +202,8 @@ graph TD
 
     <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2npp" style="border: none"></iframe>  
     <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
+        <li>North opens 1<span style="color:red;">♦</span>️</li>
+        <li>South bids 2<span style="color:red;">♦</span>️</li>
         <li>North has a stopper in ❤️ and ♠️, and a minimum hand, so bids 2NT</li>
         <li>With only a minimum hand, south passes</li>
     </ol> 
@@ -217,8 +217,8 @@ graph TD
 
     <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2hp3np4npp" style="border: none"></iframe>  
     <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
+        <li>North opens 1<span style="color:red;">♦</span>️</li>
+        <li>South bids 2<span style="color:red;">♦</span>️</li>
         <li>North has a ton of points.  We are certainly at least in game.  North can still force bidding to continue and learn more about south's hand.  With no stopper in ❤️, north bids ♠️.</li>
         <li>South has ❤️ and 12hcp, so bids 3NT</li>
         <li>North knows they have slam potential in NT now.  North bids a quantitative invite of 4NT.</li>
@@ -236,8 +236,8 @@ graph TD
 
     <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp3cp3n" style="border: none"></iframe>  
     <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
+        <li>North opens 1<span style="color:red;">♦</span>️</li>
+        <li>South bids 2<span style="color:red;">♦</span>️</li>
         <li>North has a stopper in ❤️ and ♠️, but is concerned about the singleton low ♣️, so bids 3♣️</li>
         <li>South has a stopper in ♣️ so bids 3NT</li>
     </ol> 
@@ -251,8 +251,8 @@ graph TD
 
     <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp2np3n" style="border: none"></iframe>  
     <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
+        <li>North opens 1<span style="color:red;">♦</span>️</li>
+        <li>South bids 2<span style="color:red;">♦</span>️</li>
         <li>North has a stopper in ❤️ and ♠️, and a minimum hand, so bids 2NT</li>
         <li>With 14hcp, north takes it to 3NT</li>
     </ol> 
@@ -266,8 +266,8 @@ graph TD
 
     <iframe width="100px" height="100px" src="https://www.bridgebase.com/tools/handviewer.html?a=1dp2dp3cp3n" style="border: none"></iframe>  
     <ol>
-        <li>North opens 1♦️</li>
-        <li>South bids 2♦️</li>
+        <li>North opens 1<span style="color:red;">♦</span>️</li>
+        <li>South bids 2<span style="color:red;">♦</span>️</li>
         <li>North has a stopper in ❤️ and ♠️, but is concerned about the singleton low ♣️, so bids 3♣️</li>
         <li>South has a stopper in ♣️ so bids 3NT</li>
     </ol> 

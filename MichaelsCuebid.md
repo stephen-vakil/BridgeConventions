@@ -11,8 +11,8 @@ After an opponent opens 1 of a suit, a **direct cuebid** (2 of opener's suit) sh
 | Opponent opens | Your cuebid | Shows |
 |---------------|-------------|-------|
 | 1♣ | 2♣ | Both majors (5+ hearts and 5+ spades) |
-| 1♦ | 2♦ | Both majors (5+ hearts and 5+ spades) |
-| 1♥ | 2♥ | Spades + an unspecified minor |
+| 1<span style="color:red;">♦</span> | 2<span style="color:red;">♦</span> | Both majors (5+ hearts and 5+ spades) |
+| 1<span style="color:red;">♥</span> | 2<span style="color:red;">♥</span> | Spades + an unspecified minor |
 | 1♠ | 2♠ | Hearts + an unspecified minor |
 
 ---

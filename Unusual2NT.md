@@ -10,10 +10,10 @@ A jump to 2NT over an opponent's opening bid to show the **two lowest unbid suit
 
 | Opponent opens | Your 2NT shows |
 |---------------|---------------|
-| 1♥ | Clubs and diamonds (the two lowest unbid suits) |
+| 1<span style="color:red;">♥</span> | Clubs and diamonds (the two lowest unbid suits) |
 | 1♠ | Clubs and diamonds |
 | 1♣ | Diamonds and hearts |
-| 1♦ | Clubs and hearts |
+| 1<span style="color:red;">♦</span> | Clubs and hearts |
 
 ---
 

@@ -8,7 +8,6 @@ on:
       - ".github/workflows/generate-pdfs.yml"
       - "print.css"
       - "scripts/generate_pdfs.py"
-      - "scripts/fill_acbl_card.py"
       - "puppeteer-config.json"
   workflow_dispatch:
 
@@ -38,13 +37,10 @@ jobs:
           sudo apt-get install -y pandoc fonts-noto fonts-dejavu
 
       - name: Install Python dependencies
-        run: pip install weasyprint pypdf
+        run: pip install weasyprint
 
       - name: Generate PDFs
         run: python3 scripts/generate_pdfs.py
-
-      - name: Fill ACBL Convention Card
-        run: python3 scripts/fill_acbl_card.py
 
       - name: Commit PDFs
         run: |
