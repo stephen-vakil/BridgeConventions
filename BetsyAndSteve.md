@@ -110,7 +110,7 @@
 **NT overcalls:**
 - Direct 1NT: 15–18 HCP, systems on (Stayman, transfers) — range **announced**
 - Balancing 1NT: 12–14 HCP — range **announced**
-- Jump to 2NT: 2 lowest unbid suits ([Unusual 2NT](Unusual2NT.md)) — **alertable**
+- Jump to 2NT: 2 lowest unbid suits ([Unusual 2NT](Unusual2NT.md))
 
 **[Michaels Cuebid](MichaelsCuebid.md):** **Alertable**
 - Over a minor: both majors
@@ -183,33 +183,3 @@
 | [New Minor Forcing](NewMinorForcing.md) | After 1m – 1M – 1NT |
 | [Landy 2♣](Landy.md) | Over opponent's 1NT opening |
 
-<div style="page-break-after: always"></div>
-
----
-
-## Convention Reference
-
-### Fully Documented
-
-| Convention | What it covers |
-|-----------|----------------|
-| [Major Raises](MajorRaises.md) | Bergen, Jacoby 2NT, Splinter, Drury |
-| [Inverted Minors](InvertedMinors.md) | Single raise of opener's minor |
-| [Defense vs. 1NT Interference](AfterOpponentsInterfereWithNT.md) | After double or suit overcall over partner's 1NT |
-
-### Stub Files — Needs Content
-
-| Convention | File |
-|-----------|------|
-| Stayman, Jacoby Transfers, Texas Transfers | [NTResponses.md](NTResponses.md) |
-| Support Doubles / Redoubles | [SupportDoubles.md](SupportDoubles.md) |
-| RKC 1430 | [RKC1430.md](RKC1430.md) |
-| New Minor Forcing | [NewMinorForcing.md](NewMinorForcing.md) |
-| Landy | [Landy.md](Landy.md) |
-| Michaels Cuebid | [MichaelsCuebid.md](MichaelsCuebid.md) |
-| Unusual 2NT | [Unusual2NT.md](Unusual2NT.md) |
-
-### Not Yet Adopted
-- Help suit / game try suit
-- Fourth Suit Forcing
-- Additional defense vs. opponent's 1NT (beyond Landy)
