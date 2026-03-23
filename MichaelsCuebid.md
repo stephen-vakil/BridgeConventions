@@ -19,21 +19,12 @@ After an opponent opens 1 of a suit, a **direct cuebid** (2 of opener's suit) sh
 
 ## Point Range / Strength
 
-*(fill in — what is the HCP/suit quality range? Any vulnerability adjustments?)*
-
----
-
-## Identifying the Minor (After Major + Minor Cuebid)
-
-When the cuebid shows a major + unknown minor, partner can ask:
-
-*(fill in — how does partner find out which minor? e.g., 2NT = ask)*
+Generally a strong enough hand that we might win the auction.  If you expect opponents will win the auction
+because your hand is so weak, don't bid Michael's because it gives the opponents too much information.
 
 ---
 
 ## Responses by Partner (Advancer)
-
-*(fill in — what are partner's options after a Michaels cuebid?)*
 
 | Advancer bid | Meaning |
 |-------------|---------|
@@ -41,9 +32,3 @@ When the cuebid shows a major + unknown minor, partner can ask:
 | 3M (known major) | Invitational |
 | 4M (known major) | To play |
 | 2NT | Asks for the minor (if applicable) |
-
----
-
-## Notes
-
-*(fill in — any edge cases, e.g., direct vs. balancing seat, passed hand Michaels, etc.)*

@@ -104,6 +104,7 @@
 ### Overcalls
 
 **Simple (1-level):** 8–17 HCP; new suit by advancer is non-forcing constructive
+**Simple (2-level):** 11–17 HCP; new suit by advancer is non-forcing constructive(??)
 
 **Jump overcall:** Intermediate — sound when vulnerable, light when non-vulnerable
 
@@ -122,9 +123,10 @@
 
 | Type | Through | Notes |
 |------|---------|-------|
-| Negative | 3♠ | **Alertable** |
+| Negative | 3♠ |  |
 | [Support](SupportDoubles.md) | 2♠ | **Alertable**; support redouble also applies |
 | Takeout vs. preempts | 4♠ | |
+| Takeout + bid:  18+ hcp | | |
 
 ---
 

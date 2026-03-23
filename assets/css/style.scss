@@ -13,3 +13,55 @@
 .main-content {
   max-width: 100%;
 }
+
+/* NT Response Tables (1NT and 2NT) */
+table.nt-response-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.nt-response-table th,
+table.nt-response-table td {
+  border: 1px solid #aab8cc;
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+table.nt-response-table thead tr:first-child th {
+  background-color: #2c4a7c;
+  color: white;
+  border-color: #1a2f4f;
+}
+
+table.nt-response-table thead tr:last-child th {
+  background-color: #7a9fcf;
+  color: white;
+  border-color: #1a2f4f;
+}
+
+table.nt-response-table thead em {
+  font-weight: normal;
+  font-size: 0.85em;
+}
+
+table.nt-response-table tbody tr:nth-child(odd) {
+  background-color: #f0f4f8;
+}
+
+table.nt-response-table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+table.nt-response-table tbody tr:nth-child(odd) th {
+  background-color: #dce6f0;
+}
+
+table.nt-response-table tbody tr:nth-child(even) th {
+  background-color: #eef2f7;
+}
+
+table.nt-response-table ul {
+  margin: 4px 0 0 0;
+  padding-left: 18px;
+}

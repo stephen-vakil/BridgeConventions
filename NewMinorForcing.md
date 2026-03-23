@@ -20,7 +20,11 @@ Used by responder after a 1NT rebid by opener to ask about opener's shape, parti
 
 ## Opener's Responses
 
-*(fill in — what does opener show with each rebid?)*
+Priorities (in order from most important to least):
+1. Bid the other major if you have 4+ cards in it.
+2. Bid partner's major if you have 3 card support in it.
+3. Show your range or shape otherwise
+
 
 | Opener rebid | Meaning |
 |-------------|---------|
@@ -40,10 +44,5 @@ Used by responder after a 1NT rebid by opener to ask about opener's shape, parti
 
 ## What Is NOT New Minor Forcing
 
-*(fill in — e.g., if responder's minor is the same suit that was opened, or other auction shapes that look similar)*
-
----
-
-## Notes
-
-*(fill in — any edge cases or partnership agreements)*
+- If partner has not rebid 1NT or 2NT, it's not new minor forcing if you bid a new minor.  Partner will expect that you probably have that minor
+- If no majors have been bid before the 1NT or 2NT, it's not new minor forcing
