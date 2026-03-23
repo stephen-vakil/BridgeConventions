@@ -53,7 +53,8 @@ Covers responses to 1NT (15–17) and 2NT (20–21) openings.
             <th>6 in one major</th>
             <td>Transfer and pass</td>
             <td>Transfer and 3 of major</td>
-            <td>Transfer to game
+            <td>
+                Transfer to game
                 <ul>
                 <li>No slam interest → Texas Transfer (4 level transfer)</li>
                 <li>Potential slam interest → Jacoby Transfer (2 level transfer)</li>
@@ -102,13 +103,13 @@ Covers responses to 1NT (15–17) and 2NT (20–21) openings.
             <td>
                 Transfer to ♠ and bid
                 <ul>
-                <li>After transfer → 3<span style="color:red;">♥</span></li>
+                <li>After transfer → 3<span class="r">♥</span></li>
                 </ul>
             </td>
             <td>
                 Transfer to ♠ and bid to game
                 <ul>
-                <li>After transfer → 4<span style="color:red;">♥</span></li>
+                <li>After transfer → 4<span class="r">♥</span></li>
                 </ul>
             </td>
         </tr>
@@ -119,7 +120,7 @@ Covers responses to 1NT (15–17) and 2NT (20–21) openings.
 
 ## Responses to 2NT (20–21)
 
-No invitational zone — 4+ HCP opposite 20–21 is game-forcing. Stayman is 3♣; Jacoby Transfers are 3<span style="color:red;">♦</span>/3<span style="color:red;">♥</span>; 4NT is quantitative (not Blackwood).
+No invitational zone — 4+ HCP opposite 20–21 is game-forcing. Stayman is 3♣; Jacoby Transfers are 3<span class="r">♦</span>/3<span class="r">♥</span>; 4NT is quantitative (not Blackwood).
 
 <table class="nt-response-table">
     <thead>
@@ -138,7 +139,8 @@ No invitational zone — 4+ HCP opposite 20–21 is game-forcing. Stayman is 3�
             <th>2–3 majors</th>
             <td>Pass</td>
             <td>3NT</td>
-            <td>4NT (quantitative)
+            <td>
+                4NT (quantitative)
                 <ul>
                 <li>Opener bids 6NT with 21, passes with 20</li>
                 </ul>
@@ -202,7 +204,7 @@ No invitational zone — 4+ HCP opposite 20–21 is game-forcing. Stayman is 3�
             <th>5-5</th>
             <td>Pass</td>
             <td>
-                Transfer to ♠ → bid 4<span style="color:red;">♥</span>
+                Transfer to ♠ → bid 4<span class="r">♥</span>
             </td>
             <td>
                 ???
@@ -217,12 +219,12 @@ No invitational zone — 4+ HCP opposite 20–21 is game-forcing. Stayman is 3�
 
 Used to transfer directly to game in a major, usually with a long suit and enough for game but no slam interest.
 
-**Auction:** 1NT – 4<span style="color:red;">♦</span> → opener bids 4<span style="color:red;">♥</span>; 1NT – 4<span style="color:red;">♥</span> → opener bids 4♠
+**Auction:** 1NT – 4<span class="r">♦</span> → opener bids 4<span class="r">♥</span>; 1NT – 4<span class="r">♥</span> → opener bids 4♠
 
 | Responder bids | Transfers to |
 |---------------|-------------|
-| 4<span style="color:red;">♦</span> | 4<span style="color:red;">♥</span> (game in hearts) |
-| 4<span style="color:red;">♥</span> | 4♠ (game in spades) |
+| 4<span class="r">♦</span> | 4<span class="r">♥</span> (game in hearts) |
+| 4<span class="r">♥</span> | 4♠ (game in spades) |
 
 **When to use Texas vs. Jacoby:**
 - Texas: game values, no slam interest, 6+ card major

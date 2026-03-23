@@ -8,7 +8,7 @@ Used by opener to show 3-card support for responder's major when opponents inter
 
 **When it applies:** Opener has opened, responder bid a major, and an opponent overcalls (through 2♠).
 
-**Auction example:** 1♣ – (P) – 1<span style="color:red;">♥</span> – (1♠) – **Dbl** = opener has exactly 3 hearts
+**Auction example:** 1♣ – (P) – 1<span class="r">♥</span> – (1♠) – **Dbl** = opener has exactly 3 hearts
 
 | Opener's action | Meaning |
 |----------------|---------|
@@ -27,7 +27,7 @@ Responder now knows whether to expect 3- or 4-card support when bidding game or 
 
 **When it applies:** Same situation as the support double, but the opponent **doubles** instead of overcalling.
 
-**Auction example:** 1♣ – (P) – 1<span style="color:red;">♥</span> – (Dbl) – **Rdbl** = opener has 3-card support for hearts
+**Auction example:** 1♣ – (P) – 1<span class="r">♥</span> – (Dbl) – **Rdbl** = opener has 3-card support for hearts
 
 | Opener's action | Meaning |
 |----------------|---------|

@@ -74,12 +74,12 @@
 | Simple raise (2M) | 6–9 | 3+ | |
 | [Bergen 2M](MajorRaises.md) | 4–6 | 4 | **Alertable** |
 | [Bergen 3♣](MajorRaises.md) | 10–12 | 4 | **Alertable** |
-| [Bergen 3<span style="color:red;">♦</span>](MajorRaises.md) | 7–9 | 4 | **Alertable** |
+| [Bergen 3<span class="r">♦</span>](MajorRaises.md) | 7–9 | 4 | **Alertable** |
 | Double raise (3M) | 0–3 | 4 | Preemptive; **alertable** |
 | [Jacoby 2NT](MajorRaises.md) | 13+ | 4 | Game forcing or better; **alertable** |
 | [Splinter](MajorRaises.md) | 13+ | 4 | Singleton/void; **alertable** |
 | [Drury 2♣](MajorRaises.md) | Medium+ | 3 | Passed hand only; **alertable** |
-| [Drury 2<span style="color:red;">♦</span>](MajorRaises.md) | Medium+ | 4 | Passed hand only; **alertable** |
+| [Drury 2<span class="r">♦</span>](MajorRaises.md) | Medium+ | 4 | Passed hand only; **alertable** |
 
 ---
 
@@ -96,8 +96,8 @@
 
 | Bid | Points | Shape | Responses | Notes |
 |-----|--------|-------|-----------|-------|
-| 2♣ | 22+ | Any | 2<span style="color:red;">♦</span> = waiting  |  |
-| 2<span style="color:red;">♦</span> / 2<span style="color:red;">♥</span> / 2♠ | 5–11 | 6-card suit | 2NT = forcing inquiry (**alertable**) | |
+| 2♣ | 22+ | Any | 2<span class="r">♦</span> = waiting  |  |
+| 2<span class="r">♦</span> / 2<span class="r">♥</span> / 2♠ | 5–11 | 6-card suit | 2NT = forcing inquiry (**alertable**) | |
 
 ---
 
@@ -131,7 +131,7 @@
 ---
 
 ### Slam Conventions
-**[RKC Blackwood](RKC1430.md):** 1430 — 5♣ = 1 or 4 key cards; 5<span style="color:red;">♦</span> = 0 or 3 — **alertable**
+**[RKC Blackwood](RKC1430.md):** 1430 — 5♣ = 1 or 4 key cards; 5<span class="r">♦</span> = 0 or 3 — **alertable**
 
 ---
 
@@ -147,7 +147,7 @@
 ---
 
 ### Other Conventions
-- **[New Minor Forcing](NewMinorForcing.md):** After 1m – 1M – 1NT, 2♣ or 2<span style="color:red;">♦</span> = forcing, asks about opener's shape — **alertable**
+- **[New Minor Forcing](NewMinorForcing.md):** After 1m – 1M – 1NT, 2♣ or 2<span class="r">♦</span> = forcing, asks about opener's shape — **alertable**
 
 ---
 
@@ -162,8 +162,8 @@
 |-----|-------------------|
 | 1NT opening | "15 to 17" |
 | 2NT opening | "20 to 21" |
-| Jacoby Transfer (2<span style="color:red;">♦</span>/2<span style="color:red;">♥</span> over NT) | "hearts/spades" |
-| Texas Transfer (4<span style="color:red;">♦</span>/4<span style="color:red;">♥</span> over NT) | "hearts/spades" |
+| Jacoby Transfer (2<span class="r">♦</span>/2<span class="r">♥</span> over NT) | "hearts/spades" |
+| Texas Transfer (4<span class="r">♦</span>/4<span class="r">♥</span> over NT) | "hearts/spades" |
 | NT overcall | State the range |
 
 **Alerted** (partner says "Alert"):
@@ -172,12 +172,12 @@
 |-----|-----------|
 | [Bergen 2M](MajorRaises.md) | 4-card support, 4–6 pts |
 | [Bergen 3♣](MajorRaises.md) | 4-card support, 10–12 pts |
-| [Bergen 3<span style="color:red;">♦</span>](MajorRaises.md) | 4-card support, 7–9 pts |
+| [Bergen 3<span class="r">♦</span>](MajorRaises.md) | 4-card support, 7–9 pts |
 | Double raise (3M) | 4-card support, 0–3 pts (preemptive) |
 | [Jacoby 2NT](MajorRaises.md) | Game-forcing raise, 4-card support |
 | [Splinter](MajorRaises.md) | Game-forcing raise, singleton/void |
 | [Drury 2♣](MajorRaises.md) | Passed hand, 3-card support |
-| [Drury 2<span style="color:red;">♦</span>](MajorRaises.md) | Passed hand, 4-card support |
+| [Drury 2<span class="r">♦</span>](MajorRaises.md) | Passed hand, 4-card support |
 | [Inverted minor raise](InvertedMinors.md) | Forcing, 11+ pts, no 4-card major |
 | 2NT response to weak 2-bid | Forcing inquiry |
 | [Support double](SupportDoubles.md) | Shows exactly 3-card support |

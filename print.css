@@ -55,6 +55,9 @@ tr:nth-child(even) td {
   background-color: #f6f6f6;
 }
 
+/* Red suits (hearts and diamonds) */
+.r { color: red; }
+
 /* NT Response tables (1NT and 2NT) */
 table.nt-response-table {
   print-color-adjust: exact;

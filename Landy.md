@@ -18,9 +18,9 @@ Defense convention used over an opponent's 1NT opening.
 
 | Advancer bid | Meaning |
 |-------------|---------|
-| 2<span style="color:red;">♦</span> | Bid your better major |
-| 2<span style="color:red;">♥</span> | Preference for hearts (could be a doubleton) |
+| 2<span class="r">♦</span> | Bid your better major |
+| 2<span class="r">♥</span> | Preference for hearts (could be a doubleton) |
 | 2♠ | Preference for spades (could be a doubleton) |
 | 2NT | Strong hand, forcing |
-| 3<span style="color:red;">♥</span> | Invitation to game and 4 card support |
+| 3<span class="r">♥</span> | Invitation to game and 4 card support |
 | 3♠ | Invitation to game and 4 card support  |
