@@ -6,11 +6,12 @@ General approach:
 - Goal is to explore No Trump by figuring out which suits are stopped, or short-circuit to the minor if No Trump isn't viable
 
 # Responder bids after 1 of a minor by opener
-| Bid | Range |  Notes |
-|-----|-------|--------|
-| 3m  | 0-5  | 5-card support (alert) |
-| 1NT | 6-9 | |
-| 2m  | 10+ | 5-card support |
+
+| Bid | Range |  Notes                 |
+|-----|-------|------------------------|
+| 3m  | 0-5   | 5-card support (alert) |
+| 1NT | 6-9   |                        |
+| 2m  | 10+   | 5-card support (alert) |
 
 # After 1m - 2m
 
