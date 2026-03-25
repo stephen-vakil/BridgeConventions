@@ -17,4 +17,4 @@ Defense convention used over an opponent's 1NT opening.  Modified version of DON
 - Double - EITHER a 6-card minor or 5-4 majors - relay bid
   - Advancer must bid 2♣
   - With a 6 card minor, overcaller will bid it
-  - With both majors, overcallerw ill be 2H (pass or correct)
+  - With both majors, overcaller will bid 2H, and advancer will pass or correct
