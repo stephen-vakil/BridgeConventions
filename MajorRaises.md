@@ -46,8 +46,8 @@ graph TD
 
     Bergen -->|With 10-12 points| D1[3 Club Bergen raise]:::alerted
     Bergen -->|With 7-9 points| D2[3 Diamond Bergen raise]:::alerted
-    Bergen -->|With 4-6 points| D3[2 of the major Bergen raise]
-    Bergen -->|With 0-3 points| D4[3 of the major Bergen raise]:::alerted
+    Bergen -->|With 6 points| D3[2 of the major Bergen raise]
+    Bergen -->|With 0-5 points| D4[3 of the major Bergen raise]:::alerted
 
     3rdseat -->|Medium or more and 3+ card support| Drury[Drury]
     Drury -->|With 3 cards| E1[2 clubs]:::alerted
