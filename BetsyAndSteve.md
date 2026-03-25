@@ -5,19 +5,12 @@
 ---
 
 ## Open questions:
-- In NTResponses, after 2NT open, with 12+ points and 5-4 in the majors, what to do after no fit following stayman
-- In NTResponses, after 2NT open, with 12+ points and 5-5 in the majors, what to do
-- Where are we with the inverted minor progression
-- Answers to questions / gaps in the Landy convention if we keep it
 - Answers to questions / gaps in michael's
 - Answers to questions / gaps in new minor forcing
 - Answers to questions / gaps in RKC
 - Answers to questions / gaps in support double
 - Answers to questions / gaps in Unusual 2NT
-- Convention card - weak 2 new suit forcing?
 - Convention card - Coded 9's and 10's
-- Convention card - anything missing?
-- Alert/Announcements - verify
 
 ### General Approach
 **System:** Standard American | **5-card majors** | **1st–4th seat**
@@ -42,15 +35,13 @@
 | Support Doubles / Redoubles | [SupportDoubles.md](SupportDoubles.md) |
 | RKC 1430 | [RKC1430.md](RKC1430.md) |
 | New Minor Forcing | [NewMinorForcing.md](NewMinorForcing.md) |
-| Landy | [Landy.md](Landy.md) |
+| WONT | [WONT.md](WONT.md) |
 | Michaels Cuebid | [MichaelsCuebid.md](MichaelsCuebid.md) |
 | Unusual 2NT | [Unusual2NT.md](Unusual2NT.md) |
 
 ### Not Yet Adopted - Potentially discuss
 - Help suit / game try suit
 - Fourth Suit Forcing
-- Additional defense vs. opponent's 1NT (beyond Landy)
-
 
 ---
 
@@ -72,10 +63,10 @@
 | Response | Points | Support | Notes |
 |----------|--------|---------|-------|
 | Simple raise (2M) | 6–9 | 3+ | |
-| [Bergen 2M](MajorRaises.md) | 4–6 | 4 | **Alertable** |
+| [Bergen 2M](MajorRaises.md) | 6 | 4 | **Alertable** |
 | [Bergen 3♣](MajorRaises.md) | 10–12 | 4 | **Alertable** |
 | [Bergen 3<span class="r">♦</span>](MajorRaises.md) | 7–9 | 4 | **Alertable** |
-| Double raise (3M) | 0–3 | 4 | Preemptive; **alertable** |
+| Double raise (3M) | 0–5 | 4 | Preemptive; **alertable** |
 | [Jacoby 2NT](MajorRaises.md) | 13+ | 4 | Game forcing or better; **alertable** |
 | [Splinter](MajorRaises.md) | 13+ | 4 | Singleton/void; **alertable** |
 | [Drury 2♣](MajorRaises.md) | Medium+ | 3 | Passed hand only; **alertable** |
@@ -136,7 +127,7 @@
 ---
 
 ### Defense vs. Opponent's 1NT
-**[Landy](Landy.md):** 2♣ = 5/4 or better in both majors — **alertable**
+**[WONT](WONT.md)
 
 ---
 
@@ -183,5 +174,5 @@
 | [Support double](SupportDoubles.md) | Shows exactly 3-card support |
 | Support redouble | Shows exactly 3-card support |
 | [New Minor Forcing](NewMinorForcing.md) | After 1m – 1M – 1NT |
-| [Landy 2♣](Landy.md) | Over opponent's 1NT opening |
+| [WONT 2♣/2<span class="r">♦</span>/2<span class="r">♥</span>/2♠/DBL](WONT.md) | Over opponent's 1NT opening |
 
