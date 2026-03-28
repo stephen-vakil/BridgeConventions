@@ -30,7 +30,7 @@ COMBINED_ORDER = [
     "SupportDoubles.md",
     "RKC1430.md",
     "NewMinorForcing.md",
-    "Landy.md",
+    "WONT.md",
     "MichaelsCuebid.md",
     "Unusual2NT.md",
 ]

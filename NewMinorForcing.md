@@ -1,6 +1,6 @@
 # New Minor Forcing
 
-Used by responder after a 1NT rebid by opener to ask about opener's shape, particularly major-suit length.
+Used by responder after a 1NT or 2NT rebid by opener to ask about opener's shape, particularly major-suit length.
 
 ---
 
@@ -33,12 +33,6 @@ Priorities (in order from most important to least):
 | 2NT | Minimum, no 3-card major support |
 | 3M | 3-card support, maximum |
 | 3NT | Maximum, balanced |
-
----
-
-## After Opener Responds
-
-*(fill in — what are responder's options?)*
 
 ---
 

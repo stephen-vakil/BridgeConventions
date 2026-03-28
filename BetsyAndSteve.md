@@ -5,8 +5,6 @@
 ---
 
 ## Open questions:
-- Answers to questions / gaps in michael's
-- Answers to questions / gaps in new minor forcing
 - Answers to questions / gaps in RKC
 - Answers to questions / gaps in support double
 - Answers to questions / gaps in Unusual 2NT
@@ -62,11 +60,10 @@
 
 | Response | Points | Support | Notes |
 |----------|--------|---------|-------|
-| Simple raise (2M) | 6–9 | 3+ | |
-| [Bergen 2M](MajorRaises.md) | 6 | 4 | **Alertable** |
+| [2M](MajorRaises.md) | 6–10 | 3 cards; or exactly 6 with 4 cards | |
 | [Bergen 3♣](MajorRaises.md) | 10–12 | 4 | **Alertable** |
 | [Bergen 3<span class="r">♦</span>](MajorRaises.md) | 7–9 | 4 | **Alertable** |
-| Double raise (3M) | 0–5 | 4 | Preemptive; **alertable** |
+| [3M](MajorRaises.md) | 0–5 | 4 | Preemptive; **alertable** |
 | [Jacoby 2NT](MajorRaises.md) | 13+ | 4 | Game forcing or better; **alertable** |
 | [Splinter](MajorRaises.md) | 13+ | 4 | Singleton/void; **alertable** |
 | [Drury 2♣](MajorRaises.md) | Medium+ | 3 | Passed hand only; **alertable** |
@@ -78,7 +75,7 @@
 
 | Response | Points | Notes |
 |----------|--------|-------|
-| [Inverted single raise](InvertedMinors.md) | 11+ | Forcing; no 4-card major; **alertable** |
+| [Inverted single raise](InvertedMinors.md) | 10+ | Forcing; no 4-card major; **alertable** |
 | Double raise | 0–9 | Preemptive/weak, **alertable** |
 
 ---
@@ -88,14 +85,15 @@
 | Bid | Points | Shape | Responses | Notes |
 |-----|--------|-------|-----------|-------|
 | 2♣ | 22+ | Any | 2<span class="r">♦</span> = waiting  |  |
-| 2<span class="r">♦</span> / 2<span class="r">♥</span> / 2♠ | 5–11 | 6-card suit | 2NT = forcing inquiry (**alertable**) | |
+| 2<span class="r">♦</span> / 2<span class="r">♥</span> / 2♠ | 5–11 | 6-card suit | 2NT = forcing inquiry | |
 
 ---
 
 ### Overcalls
 
-**Simple (1-level):** 8–17 HCP; new suit by advancer is non-forcing constructive
-**Simple (2-level):** 11–17 HCP; new suit by advancer is non-forcing constructive(??)
+- **Simple (1-level):** 8–17 HCP
+- **Simple (2-level):** 11–17 HCP
+- New suit by advancer is non-forcing constructive
 
 **Jump overcall:** Intermediate — sound when vulnerable, light when non-vulnerable
 
@@ -115,7 +113,7 @@
 | Type | Through | Notes |
 |------|---------|-------|
 | Negative | 3♠ |  |
-| [Support](SupportDoubles.md) | 2♠ | **Alertable**; support redouble also applies |
+| [Support](SupportDoubles.md) | 2♠ |  |
 | Takeout vs. preempts | 4♠ | |
 | Takeout + bid:  18+ hcp | | |
 
@@ -127,7 +125,7 @@
 ---
 
 ### Defense vs. Opponent's 1NT
-**[WONT](WONT.md)
+**[WONT](WONT.md)**
 
 ---
 
@@ -138,7 +136,7 @@
 ---
 
 ### Other Conventions
-- **[New Minor Forcing](NewMinorForcing.md):** After 1m – 1M – 1NT, 2♣ or 2<span class="r">♦</span> = forcing, asks about opener's shape — **alertable**
+- **[New Minor Forcing](NewMinorForcing.md):** After 1m – 1M – 1NT or 2NT, the other minor = forcing, asks about opener's shape — **alertable**
 
 ---
 
@@ -155,24 +153,19 @@
 | 2NT opening | "20 to 21" |
 | Jacoby Transfer (2<span class="r">♦</span>/2<span class="r">♥</span> over NT) | "hearts/spades" |
 | Texas Transfer (4<span class="r">♦</span>/4<span class="r">♥</span> over NT) | "hearts/spades" |
-| NT overcall | State the range |
 
 **Alerted** (partner says "Alert"):
 
 | Bid | Situation |
 |-----|-----------|
-| [Bergen 2M](MajorRaises.md) | 4-card support, 4–6 pts |
 | [Bergen 3♣](MajorRaises.md) | 4-card support, 10–12 pts |
 | [Bergen 3<span class="r">♦</span>](MajorRaises.md) | 4-card support, 7–9 pts |
-| Double raise (3M) | 4-card support, 0–3 pts (preemptive) |
+| [3M raise](MajorRaises.md) | 4-card support, 0–5 pts (preemptive) |
 | [Jacoby 2NT](MajorRaises.md) | Game-forcing raise, 4-card support |
 | [Splinter](MajorRaises.md) | Game-forcing raise, singleton/void |
 | [Drury 2♣](MajorRaises.md) | Passed hand, 3-card support |
 | [Drury 2<span class="r">♦</span>](MajorRaises.md) | Passed hand, 4-card support |
-| [Inverted minor raise](InvertedMinors.md) | Forcing, 11+ pts, no 4-card major |
-| 2NT response to weak 2-bid | Forcing inquiry |
-| [Support double](SupportDoubles.md) | Shows exactly 3-card support |
-| Support redouble | Shows exactly 3-card support |
-| [New Minor Forcing](NewMinorForcing.md) | After 1m – 1M – 1NT |
+| [Inverted minor raise](InvertedMinors.md) | Forcing, 10+ pts, no 4-card major |
+| [New Minor Forcing](NewMinorForcing.md) | After 1m – 1M – 1NT or 2NT |
 | [WONT 2♣/2<span class="r">♦</span>/2<span class="r">♥</span>/2♠/DBL](WONT.md) | Over opponent's 1NT opening |
 

@@ -122,29 +122,24 @@ Covers responses to 1NT (15–17) and 2NT (20–21) openings.
 
 No invitational zone — 4+ HCP opposite 20–21 is game-forcing. Stayman is 3♣; Jacoby Transfers are 3<span class="r">♦</span>/3<span class="r">♥</span>; 4NT is quantitative (not Blackwood).
 
+With slam interest, follow the same game-forcing path to establish a fit, then pursue slam via RKC or — without a major fit — a quantitative 4NT. We have no firm agreements on exact point thresholds for slam tries opposite 2NT, so judge based on controls and fit.
+
 <table class="nt-response-table">
     <thead>
         <tr>
             <th rowspan="2">Majors</th>
-            <th colspan="3">Responder Point Range</th>
+            <th colspan="2">Responder Point Range</th>
         </tr>
         <tr>
             <th>0–3<br><em>Pass</em></th>
-            <th>4–11<br><em>Game Forcing</em></th>
-            <th>12+<br><em>Slam Interest</em></th>
+            <th>4+<br><em>Game Forcing</em></th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <th>2–3 majors</th>
             <td>Pass</td>
-            <td>3NT</td>
-            <td>
-                4NT (quantitative)
-                <ul>
-                <li>Opener bids 6NT with 21, passes with 20</li>
-                </ul>
-            </td>
+            <td>3NT (or 4NT quantitative with slam values)</td>
         </tr>
         <tr>
             <th>4 or 4-4</th>
@@ -153,14 +148,7 @@ No invitational zone — 4+ HCP opposite 20–21 is game-forcing. Stayman is 3�
                 3♣ Stayman and bid to game
                 <ul>
                 <li>No fit → 3NT</li>
-                <li>Fit → 4 of major</li>
-                </ul>
-            </td>
-            <td>
-                3♣ Stayman and slam try
-                <ul>
-                <li>Fit → cue bid or RKC</li>
-                <li>No fit → 4NT quantitative</li>
+                <li>Fit → 4 of major (or slam try if strong)</li>
                 </ul>
             </td>
         </tr>
@@ -168,13 +156,14 @@ No invitational zone — 4+ HCP opposite 20–21 is game-forcing. Stayman is 3�
             <th>5 in one major</th>
             <td>Pass</td>
             <td>Transfer → bid 3NT (let opener choose 3NT or 4 of major)</td>
-            <td>Transfer → bid 4NT (slam try) or cue bid</td>
         </tr>
         <tr>
             <th>6 in one major</th>
             <td>Pass</td>
-            <td>Texas Transfer → 4 of major (direct to game)</td>
-            <td>Jacoby Transfer → cue bid or 4NT (slam try)</td>
+            <td>
+                Texas Transfer → 4 of major (no slam interest)<br>
+                Jacoby Transfer → cue bid or 4NT (slam interest)
+            </td>
         </tr>
         <tr>
             <th>5-4</th>
@@ -183,32 +172,19 @@ No invitational zone — 4+ HCP opposite 20–21 is game-forcing. Stayman is 3�
                 3♣ Stayman and bid to game
                 <ul>
                 <li>No fit → 3 of 5-card major</li>
-                <li>Fit → 4 of major</li>
-                </ul>
-            </td>
-            <td>
-                3♣ Stayman and slam try
-                <ul>
-                <li>No fit → ??</li>
-                <li>Fit → cue bid or RKC</li>
+                <li>Fit → 4 of major (or slam try if strong)</li>
                 </ul>
             </td>
         </tr>
         <tr>
             <th>6-4</th>
             <td>Pass</td>
-            <td>Texas Transfer → 4 of major</td>
-            <td>Jacoby Transfer → show 4-card side suit → slam try</td>
+            <td>Texas Transfer → 4 of major (or Jacoby + side suit with slam interest)</td>
         </tr>
         <tr>
             <th>5-5</th>
             <td>Pass</td>
-            <td>
-                Transfer to ♠ → bid 4<span class="r">♥</span>
-            </td>
-            <td>
-                ???
-            </td>
+            <td>Transfer to ♠ → bid 4<span class="r">♥</span></td>
         </tr>
     </tbody>
 </table>

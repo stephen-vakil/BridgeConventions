@@ -1,7 +1,9 @@
 # Inverted Minors
 General approach:
 - Opener bids a minor.
-- Responder has no 4 card major but 5+ cards in the opener's minor and 10+ points
+- Responder has no 4-card major, 10+ points, and support for opener's minor:
+  - 1♣ opener: 5+ clubs required
+  - 1♦ opener: 4+ diamonds required
 - Responder bids 2 of the minor.
 - Goal is to explore No Trump by figuring out which suits are stopped, or short-circuit to the minor if No Trump isn't viable
 
@@ -9,11 +11,11 @@ General approach:
 
 | Bid | Range |  Notes                 |
 |-----|-------|------------------------|
-| 3m  | 0-5   | 5-card support (alert) |
+| 3m  | 0-5   | 5+ card support (alert) |
 | 1NT | 6-9   |                        |
-| 2m  | 10+   | 5-card support (alert) |
+| 2m  | 10+   | 5+ clubs / 4+ diamonds (alert) |
 
-# After 1m - 2m
+# Opener rebids after 1m - 2m
 
 | Bid | Range |  Notes |
 |-----|-------|--------|
