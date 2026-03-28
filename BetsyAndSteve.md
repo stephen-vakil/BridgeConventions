@@ -5,9 +5,6 @@
 ---
 
 ## Open questions:
-- Answers to questions / gaps in RKC
-- Answers to questions / gaps in support double
-- Answers to questions / gaps in Unusual 2NT
 - Convention card - Coded 9's and 10's
 
 ### General Approach
