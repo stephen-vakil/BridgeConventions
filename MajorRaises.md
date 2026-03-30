@@ -17,22 +17,30 @@
 ```mermaid
 
 graph TD
-    A[Start] -->B1[A - Opener in 1st or 2nd seat opens a major]
-    A[Start] -->3rdseat[B - Opener in 3rd or 4th seat opens a major]
+    Start[Partner opens a major] --> Seat{1st or 2nd seat?}
 
-    B1 -->|"4-card support, 13+ HCP, no singleton/void"| Jacoby[Jacoby 2NT]:::alerted
-    B1 -->|"4-card support, 13+ total points, with singleton or void"| Splinter[Splinter]:::alerted
-    B1 -->|"3-card support 6-10pts, OR 4-card support exactly 6pts"| D3[2 of the major]
-    B1 -->|"4-card support, 7-9 points"| D2[3♦ Bergen raise]:::alerted
-    B1 -->|"4-card support, 10-12 points"| D1[3♣ Bergen raise]:::alerted
-    B1 -->|"4-card support, 0-5 points"| D4[3 of the major]:::alerted
+    Seat -->|Yes| Support{4-card support?}
+    Seat -->|"No (3rd/4th seat)"| Drury{3+ card support?}
 
-    3rdseat -->|Medium or more and 3+ card support| Drury[Drury]
-    Drury -->|With 3 cards| E1[2 clubs]:::alerted
-    Drury -->|With 4 cards and medium or more| E2[2 diamonds]:::alerted
-    3rdseat -->|Minimum and 3 cards| E3[2 of Major]
-    3rdseat -->|Minimum and 4 cards| E4[3 of Major]:::alerted
-    3rdseat -->|Medium balanced hand| E5[2NT]
+    Support -->|Yes| Strength{How many points?}
+    Support -->|"No (3-card, 6-10)"| TwoM[2 of the major]
+
+    Strength -->|"13+ HCP"| Short{Singleton or void?}
+    Strength -->|10-12| Bergen3C[3♣ Bergen raise]:::alerted
+    Strength -->|7-9| Bergen3D[3♦ Bergen raise]:::alerted
+    Strength -->|0-5| ThreeM[3 of the major]:::alerted
+    Strength -->|Exactly 6| TwoM2[2 of the major]
+
+    Short -->|Yes| Splinter[Splinter]:::alerted
+    Short -->|No| Jacoby[Jacoby 2NT]:::alerted
+
+    Drury -->|"Yes, medium+ hand"| DruryBid{How many cards?}
+    Drury -->|"Minimum, 3 cards"| E3[2 of major]
+    Drury -->|"Minimum, 4 cards"| E4[3 of major]:::alerted
+    Drury -->|"Medium, balanced"| E5[2NT]
+
+    DruryBid -->|3 cards| E1[2♣ Drury]:::alerted
+    DruryBid -->|4 cards| E2[2♦ Drury]:::alerted
 
     classDef alerted fill:#FFC0CB,stroke:#ff0000,stroke-width:2px;
 ```

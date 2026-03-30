@@ -1,30 +1,35 @@
 ```mermaid
 
 graph TD
+    A[1NT Opened — Opponents Interfere] --> WhatDid{What did they do?}
 
-    A[1NT Opened] -->OppDbl[A - Opponents Double]
-    A[1NT Opened] -->Opp2C[B - Opponents Bid 2 clubs]
-    A[1NT Opened] -->Opp2x[B - Opponents Bid 2D/2H/2S]
+    WhatDid -->|Double| DblSys["Systems on (transfers still work)"]
+    WhatDid -->|Bid 2♣| TwoCSys[Stolen bid applies]
+    WhatDid -->|Bid 2♦/2♥/2♠| HCP{How many HCP?}
 
-    OppDbl -->|Transfer to clubs| Redouble
-    OppDbl -->|Transfer to diamonds| 2COverDouble[2 Clubs]
-    OppDbl -->|Transfer to hearts| 2DOverDouble[2 Diamonds]
-    OppDbl -->|Transfer to spades| 2HOverDouble[2 Hearts]
-    
-    Opp2C -->|"Stayman (Stolen)"| DoubleOver2C[Double]
-    Opp2C -->|Transfers| 2DorH["2D (Hearts) / 2H (Spades)"]
+    DblSys --> DblClubs[Redouble = transfer to ♣]
+    DblSys --> DblDiamonds[2♣ = transfer to ♦]
+    DblSys --> DblHearts[2♦ = transfer to ♥]
+    DblSys --> DblSpades[2♥ = transfer to ♠]
 
-    Opp2x -->|"With < 8"| Pass
-    Opp2x -->Opp2x8to9[With 8-9]
-    Opp2x ==>Opp2x10plus[With 10+]
+    TwoCSys --> StolenStay["Double = Stayman (stolen)"]
+    TwoCSys --> StolenXfer["2♦ = transfer to ♥ | 2♥ = transfer to ♠"]
 
-    Opp2x8to9 -->|With a stopper| Double8to9[Double]
-    Opp2x8to9 -->|No stopper| 2NTOpp2x8to9[2NT]
-    Opp2x10plus -->|With a stopper| Double10plus[Double]
-    Opp2x10plus-->|No stopper| 3NTOpp2x10plus[3NT]
+    HCP -->|"< 8"| Pass[Pass]
+    HCP -->|8-9| Stopper89{Stopper in their suit?}
+    HCP -->|10+| Stopper10{Stopper in their suit?}
 
-    2NTOpp2x8to9 -->|Also no stopper| MustBid8to9[Must bid]
-    2NTOpp2x8to9 -->|With stopper| MayPass8to9[May pass or bid]
-    3NTOpp2x10plus -->|Also no stopper| MustBid10plus[Must bid]
-    3NTOpp2x10plus -->|With stopper| MayPass10plus[May pass or bid]
+    Stopper89 -->|Yes| Dbl89[Double]
+    Stopper89 -->|No| TwoNT89[2NT]
+
+    Stopper10 -->|Yes| Dbl10[Double]
+    Stopper10 -->|No| ThreeNT10[3NT]
+
+    TwoNT89 --> Opener89{Does opener have a stopper?}
+    Opener89 -->|Yes| MayPass89[May pass or bid]
+    Opener89 -->|No| MustBid89[Must bid a suit]
+
+    ThreeNT10 --> Opener10{Does opener have a stopper?}
+    Opener10 -->|Yes| MayPass10[May pass or bid]
+    Opener10 -->|No| MustBid10[Must bid a suit]
 ```
