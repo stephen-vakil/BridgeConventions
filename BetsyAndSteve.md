@@ -21,18 +21,13 @@
 | [Major Raises](MajorRaises.md) | Bergen, Jacoby 2NT, Splinter, Drury |
 | [Inverted Minors](InvertedMinors.md) | Single raise of opener's minor |
 | [Defense vs. 1NT Interference](AfterOpponentsInterfereWithNT.md) | After double or suit overcall over partner's 1NT |
-
-### Needs Additional Discussion
-
-| Convention | File |
-|-----------|------|
-| Stayman, Jacoby Transfers, Texas Transfers | [NTResponses.md](NTResponses.md) |
-| Support Doubles / Redoubles | [SupportDoubles.md](SupportDoubles.md) |
-| RKC 1430 | [RKC1430.md](RKC1430.md) |
-| New Minor Forcing | [NewMinorForcing.md](NewMinorForcing.md) |
-| WONT | [WONT.md](WONT.md) |
-| Michaels Cuebid | [MichaelsCuebid.md](MichaelsCuebid.md) |
-| Unusual 2NT | [Unusual2NT.md](Unusual2NT.md) |
+| [NTResponses.md](NTResponses.md) | Stayman, Jacoby Transfers, Texas Transfers |
+| [SupportDoubles.md](SupportDoubles.md) | Support Doubles / Redoubles |
+| [RKC1430.md](RKC1430.md) | Roman keycard 1430 slam bidding |
+| [NewMinorForcing.md](NewMinorForcing.md) |New Minor Forcing | 
+| [WONT.md](WONT.md) | System for overcalling opponents 1NT | 
+| [MichaelsCuebid.md](MichaelsCuebid.md) | Michaels Cuebid | 
+| [Unusual2NT.md](Unusual2NT.md) | Unusual 2NT | 
 
 ### Not Yet Adopted - Potentially discuss
 - Help suit / game try suit
@@ -97,7 +92,8 @@
 **NT overcalls:**
 - Direct 1NT: 15–18 HCP, systems on (Stayman, transfers) — range **announced**
 - Balancing 1NT: 12–14 HCP — range **announced**
-- Jump to 2NT: 2 lowest unbid suits ([Unusual 2NT](Unusual2NT.md))
+- Jump to 2NT over a **suit** opening: 2 lowest unbid suits ([Unusual 2NT](Unusual2NT.md))
+- Over opponent's 1NT: [WONT](WONT.md), not Unusual 2NT
 
 **[Michaels Cuebid](MichaelsCuebid.md):** **Alertable**
 - Over a minor: both majors

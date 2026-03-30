@@ -50,8 +50,9 @@ Advancer **must** choose a suit — the 2NT bidder has shown 5-5, so partner pic
 
 A 2NT overcall is **unusual** (showing two-suited hand) when made as a direct jump over an opening bid at the 1-level.
 
-A 2NT bid is **natural** (strong, balanced) when:
+A 2NT bid is **not Unusual** when:
+- Made over an opponent's **1NT** opening — we play [WONT](WONT.md) instead
 - Made after an opponent's weak two-bid (e.g., 2♠ – **2NT** = natural, strong balanced 15–18)
 - Made as a response or rebid in an uncontested auction
 
-When in doubt: if a natural 2NT makes sense given the auction, treat it as natural. If it's a jump overcall at the 2-level over a 1-level opening, it's unusual.
+When in doubt: if a natural 2NT makes sense given the auction, treat it as natural. If it's a jump overcall over a **suit** opening at the 1-level, it's unusual.
