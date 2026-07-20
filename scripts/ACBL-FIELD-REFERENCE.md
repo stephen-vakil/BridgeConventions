@@ -31,7 +31,7 @@ Form has 433 fields. Field naming: `SECTION.c.NUMBER` = checkbox, `SECTION.t.NUM
 | `c.10` | Artificial raise: **Splinter** |
 | `c.12` | **Drury 2♣** |
 | `c.13` | **Drury 2<span class="r">♦</span>** |
-| `c.14` | Drury: **In Competition** |
+| `c.14` | Drury: **In Competition** — leave unchecked (Dreary is off over interference) |
 | `c.17` | Jump raise uncontested: **Weak** (preemptive) |
 | `c.18` | Jump raise uncontested: **Mixed** |
 | `c.19` | Jump raise uncontested: **Invitational** |
@@ -44,7 +44,7 @@ Form has 433 fields. Field naming: `SECTION.c.NUMBER` = checkbox, `SECTION.t.NUM
 | Field | Meaning |
 |-------|---------|
 | `t.11` | Free text: "Other" artificial raise description (e.g., Bergen details) |
-| `t.15` | Drury variation description |
+| `t.15` | Drury variation description — enter Dreary: 2♣/2♦ also show a natural 5+ card minor (11+), no support |
 | `t.16` | Other jump raise agreements (uncontested) |
 | `t.16b` | Other jump raise agreements (after overcall) |
 

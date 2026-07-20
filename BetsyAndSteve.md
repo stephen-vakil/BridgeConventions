@@ -18,7 +18,8 @@
 
 | Convention | What it covers |
 |-----------|----------------|
-| [Major Raises](MajorRaises.md) | Bergen, Jacoby 2NT, Splinter, Drury |
+| [Major Raises](MajorRaises.md) | Bergen, Jacoby 2NT, Splinter, Dreary |
+| [Dreary](Dreary.md) | Two-way Drury variant — passed-hand raises **or** natural minor one-suiters |
 | [Inverted Minors](InvertedMinors.md) | Single raise of opener's minor |
 | [Defense vs. 1NT Interference](AfterOpponentsInterfereWithNT.md) | After double or suit overcall over partner's 1NT |
 | [NTResponses.md](NTResponses.md) | Stayman, Jacoby Transfers, Texas Transfers |
@@ -58,8 +59,8 @@
 | [3M](MajorRaises.md) | 0–5 | 4 | Preemptive; **alertable** |
 | [Jacoby 2NT](MajorRaises.md) | 13+ | 4 | Game forcing or better; **alertable** |
 | [Splinter](MajorRaises.md) | 13+ | 4 | Singleton/void; **alertable** |
-| [Drury 2♣](MajorRaises.md) | Medium+ | 3 | Passed hand only; **alertable** |
-| [Drury 2<span class="r">♦</span>](MajorRaises.md) | Medium+ | 4 | Passed hand only; **alertable** |
+| [Dreary 2♣](Dreary.md) | 10+ | 3-card support, or natural clubs (11+) | Passed hand; off over interference; **alertable** |
+| [Dreary 2<span class="r">♦</span>](Dreary.md) | 10+ | 4-card support, or natural diamonds (11+) | Passed hand; off over interference; **alertable** |
 
 ---
 
@@ -156,8 +157,8 @@
 | [3M raise](MajorRaises.md) | 4-card support, 0–5 pts (preemptive) |
 | [Jacoby 2NT](MajorRaises.md) | Game-forcing raise, 4-card support |
 | [Splinter](MajorRaises.md) | Game-forcing raise, singleton/void |
-| [Drury 2♣](MajorRaises.md) | Passed hand, 3-card support |
-| [Drury 2<span class="r">♦</span>](MajorRaises.md) | Passed hand, 4-card support |
+| [Dreary 2♣](Dreary.md) | Passed hand: 3-card support or natural clubs |
+| [Dreary 2<span class="r">♦</span>](Dreary.md) | Passed hand: 4-card support or natural diamonds |
 | [Inverted minor raise](InvertedMinors.md) | Forcing, 10+ pts, no 4-card major |
 | [New Minor Forcing](NewMinorForcing.md) | After 1m – 1M – 1NT or 2NT |
 | [WONT 2♣/2<span class="r">♦</span>/2<span class="r">♥</span>/2♠/DBL](WONT.md) | Over opponent's 1NT opening |

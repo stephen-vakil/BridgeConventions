@@ -6,7 +6,7 @@
 - Use a preemptive 3M to show 4-card support with 0–5 points (alertable)
 - Use Splinter to show game-forcing 4 card support with a singleton or void.  Usually the singleton or void is not an honor.
 - Use Jacoby 2NT to show game-forcing **or better** 4 card support
-- Use Drury with a passed hand to show 3+ card support and at least a minimum hand
+- Use [**Dreary**](Dreary.md) (our two-way Drury variant) with a passed hand — 3+ card support, **or** a natural 5+ card minor with no support (see [Dreary](Dreary.md) for the full convention)
 - After a splinter bid, if opener has wasted honors in the short suit, opener usually will sign off in game
 
 ## When to choose splinter or Jacoby 2NT
@@ -20,7 +20,7 @@ graph TD
     Start[Partner opens a major] --> Seat{1st or 2nd seat?}
 
     Seat -->|Yes| Support{4-card support?}
-    Seat -->|"No (3rd/4th seat)"| Drury{3+ card support?}
+    Seat -->|"No (3rd/4th seat)"| Dreary{3+ card support?}
 
     Support -->|Yes| Strength{How many points?}
     Support -->|"No (3-card, 6-10)"| TwoM[2 of the major]
@@ -34,13 +34,13 @@ graph TD
     Short -->|Yes| Splinter[Splinter]:::alerted
     Short -->|No| Jacoby[Jacoby 2NT]:::alerted
 
-    Drury -->|"Yes, medium+ hand"| DruryBid{How many cards?}
-    Drury -->|"Minimum, 3 cards"| E3[2 of major]
-    Drury -->|"Minimum, 4 cards"| E4[3 of major]:::alerted
-    Drury -->|"Medium, balanced"| E5[2NT]
+    Dreary -->|"Yes, medium+ hand"| DrearyBid{How many cards?}
+    Dreary -->|"Minimum, 3 cards"| E3[2 of major]
+    Dreary -->|"Minimum, 4 cards"| E4[3 of major]:::alerted
+    Dreary -->|"Medium, balanced"| E5[2NT]
 
-    DruryBid -->|3 cards| E1[2♣ Drury]:::alerted
-    DruryBid -->|4 cards| E2[2♦ Drury]:::alerted
+    DrearyBid -->|3 cards| E1[2♣ Dreary]:::alerted
+    DrearyBid -->|4 cards| E2[2♦ Dreary]:::alerted
 
     classDef alerted fill:#FFC0CB,stroke:#ff0000,stroke-width:2px;
 ```
