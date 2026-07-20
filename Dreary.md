@@ -29,8 +29,8 @@ Commit to your lane on your first bid and **never switch.** 2♣/2<span class="r
 
 ## Responder's First Bid
 
-| Bid | Shows |
-|-----|-------|
+| Responder's bid | Shows |
+|-----------------|-------|
 | 2♣ (alert) | 3-card spade support, 10+ — **or** natural 5+ clubs, 11+ (no support) |
 | 2<span class="r">♦</span> (alert) | 4-card spade support, 10+ — **or** natural 5+ diamonds, 11+ (no support) |
 
@@ -38,11 +38,11 @@ Commit to your lane on your first bid and **never switch.** 2♣/2<span class="r
 
 ## Opener's Rebid — Strength Rungs
 
-| Bid | Range | Meaning |
-|-----|-------|---------|
+| Opener's bid | Range | Meaning |
+|--------------|-------|---------|
 | 2M | up to ~14 | Light / minimum — signoff rung |
-| 2NT (alert) | 15–17 | Medium — invitational rung |
-| 3M | 18+ | Maximum — top rung |
+| 2NT (alert) | 15–17 | Medium — **game-forcing** rung |
+| 3M | 18+ | Maximum — top rung (game-forcing) |
 
 Opener shows strength *before* knowing responder's lane. The suit rungs (2M, 3M) are natural; **2NT is artificial** and does not show a balanced notrump hand.
 
@@ -50,23 +50,48 @@ Whenever opener shows **15+** (the 2NT or 3M rung) opposite responder's 10+, bot
 
 ---
 
+## Decision Map
+
+```mermaid
+graph TD
+    Start["Passed hand;<br/>partner opens 1♠/1♥, 3rd/4th seat"] --> Hand{"Your hand?"}
+
+    Hand -->|"3-4 card support"| Sup["SUPPORT lane<br/>2♣ = 3-card / 2♦ = 4-card"]:::alerted
+    Hand -->|"5+ minor, no support"| Mnr["MINOR lane<br/>2♣ = clubs / 2♦ = diamonds"]:::alerted
+
+    Sup --> SupR{"Opener's rung"}
+    Mnr --> MnrR{"Opener's rung"}
+
+    SupR -->|"2M = min (≤14)"| S1["Responder: Pass / 3M invite /<br/>new suit = game try / 4M"]
+    SupR -->|"2NT = medium (15-17)"| S2["Responder: 4M (game forcing)"]
+    SupR -->|"3M = max (18+)"| S3["Responder: 4M — GF<br/>(opener 4NT = RKC)"]
+
+    MnrR -->|"2M = min (≤14)"| M1["Responder: Pass with doubleton /<br/>else 2NT = pass-or-correct to 3m"]
+    MnrR -->|"2NT = medium (15-17)"| M2["Responder: 3NT / 3m = pick a game<br/>(game forcing)"]
+    MnrR -->|"3M = max (18+)"| M3["Responder: 3NT<br/>(opener 4NT = quantitative)"]
+
+    classDef alerted fill:#FFC0CB,stroke:#ff0000,stroke-width:2px;
+```
+
+---
+
 ## After the Minimum Rung (2M)
 
 Opener has shown ≤14 and is trying to sign off.
 
-**Support lane:**
+**Support lane — responder's rebids:**
 
-| Bid | Meaning |
-|-----|---------|
+| Responder's bid | Meaning |
+|-----------------|---------|
 | Pass | Minimum end of range; accept the signoff |
 | 3M | Top of range, no useful shortness; mild invitation |
 | New suit | Game try |
 | 4M | To play — maximum support, wants game opposite the announced minimum |
 
-**Minor lane:**
+**Minor lane — responder's rebids:**
 
-| Bid | Meaning |
-|-----|---------|
+| Responder's bid | Meaning |
+|-----------------|---------|
 | Pass | Doubleton in M — content to play the 5-2 fit |
 | 2NT (alert) | 0–1 in M; pass-or-correct (opener passes 2NT or corrects to 3m) |
 
@@ -74,8 +99,8 @@ There is deliberately **no direct 3m** here. The pass-or-correct is self-correct
 
 ### After 2m – 2M – 2NT (opener answering the pass-or-correct)
 
-| Opener | Meaning |
-|--------|---------|
+| Opener's bid | Meaning |
+|--------------|---------|
 | Pass | Notrump is the better spot (**pass if NT is preferable to the minor**) |
 | 3m | Correct to the minor |
 
@@ -87,16 +112,16 @@ After opener passes or corrects, responder places the contract normally, assumin
 
 Opener has shown 15–17. **Both lanes are committed to game.**
 
-**Support lane** — forcing to game:
+**Support lane** — responder's rebids, forcing to game:
 
-| Bid | Meaning |
-|-----|---------|
+| Responder's bid | Meaning |
+|-----------------|---------|
 | 4M | To play |
 
-**Minor lane** — game values (26+ combined). The game is almost always **3NT**:
+**Minor lane** — responder's rebids; game values (26+ combined), game almost always **3NT**:
 
-| Bid | Meaning |
-|-----|---------|
+| Responder's bid | Meaning |
+|-----------------|---------|
 | 3NT | To play |
 | 3m | Forcing; "pick a game." Opener chooses 3NT (default) or, with a fit and a notrump hole, 5m |
 
@@ -109,8 +134,8 @@ Opener has shown 15–17. **Both lanes are committed to game.**
 
 Opener has shown 18+ — **both lanes are game-forcing.** Responder clarifies the lane and places the game:
 
-| Bid | Meaning |
-|-----|---------|
+| Responder's bid | Meaning |
+|-----------------|---------|
 | 4M | Support lane — to play |
 | 3NT | Minor lane — to play |
 
@@ -124,8 +149,8 @@ Rule of thumb: **notrump bids in this system are conventional and alert; the nat
 
 | Bid | Alert? |
 |-----|--------|
-| 2♣ / 2<span class="r">♦</span> (responder's first bid) | Yes |
-| 2M (minimum) | No — natural |
-| 2NT (medium) | Yes |
-| 3M (maximum) | No — natural |
+| Responder's 2♣ / 2<span class="r">♦</span> (first bid) | Yes |
+| Opener's 2M (minimum) | No — natural |
+| Opener's 2NT (medium) | Yes |
+| Opener's 3M (maximum) | No — natural |
 | Responder's 2NT / 3NT pass-or-correct bids | Yes |
