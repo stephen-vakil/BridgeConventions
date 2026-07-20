@@ -6,12 +6,34 @@ Standard two-way Drury shows a limit raise (2♣ = 3-card support, 2<span class=
 
 ---
 
+## Why Dreary — Two Problems It Solves
+
+Dreary fixes two weaknesses of plain Drury for a passed hand:
+
+1. **Drury is lapse-prone, and the lapses are costly.** A misremembered Drury bid makes opener assume a fit that isn't there and drives the auction toward it — you can land in a spade game on a bad misfit with no way back. **A lapse in Dreary, by contrast, still leaves you in a natural bidding sequence** you can navigate with ordinary judgment. You may reach a worse contract; you will not reach an impossible one.
+
+2. **The 11+ hand with a 5-card minor and no support had no home.** A 1NT response underbids it and buries the suit, and the 2♣ / 2<span class="r">♦</span> slots are spent on Drury. The honest low-tech workaround is to shade the hand down — a 3rd/4th-seat opener can be light, so "lend partner a point" — and respond 1NT. That is a fine **baseline**, and it stays your fallback whenever Dreary is off (over interference). Dreary is the **upgrade**: it gives the hand a defined, descriptive home and lets opener clarify light-vs-sound instead of you guessing.
+
+---
+
 ## When It Applies
 
 - Responder is a **passed hand** and partner opens 1♠ or 1<span class="r">♥</span> in 3rd or 4th seat.
 - **Off over any interference**, including a double. If either opponent acts over the opening bid, all bids are natural.
 
 **Notation:** *M* = opener's major; *m* = the minor responder actually bid (clubs after 2♣, diamonds after 2<span class="r">♦</span>). Examples use 1♠; **1<span class="r">♥</span> is identical with hearts as trumps** — the interior 2♠ step is simply bypassed, and a passed-hand spade one-suiter just bids a natural 1♠ instead of using the convention.
+
+---
+
+## Design Philosophy — Fall Into the Pit of Success
+
+Dreary is intricate, but it is built so you never have to *remember your way to safety*. At every turn, one of three nets protects the partnership:
+
+1. **The artificial calls can't be confused with natural ones.** Every artificial call here is a notrump bid that would be pointless as a natural auction — opener's 2NT facing a possible fit, or responder's 2NT / 3NT pass-or-correct. Each has a single **disclosed** meaning and no sensible natural reading to mistake it for, so applying that disclosed meaning *is* the recovery. These calls also sit at exactly the junctures where bidding on autopilot would misfire, so the clarity is there precisely where you need it. (You always apply the disclosed meaning — never a meaning you suspect partner intended.)
+
+2. **Natural bidding lands you right.** This is the load-bearing net, and the reason the convention holds up at our level. Your first bid *is* your natural bid: with a minor and no support you bid your minor, and Dreary merely makes it legal. Over opener's minimum rung — the common case opposite a light third-seat opener — the choice is pure natural judgment (pass with a doubleton, pull with a singleton), and every final contract is a natural strain. Forget every artificial nuance and just bid bridge, and you will usually arrive in the same place.
+
+3. **When both slip, the error is cheap.** The disaster this convention exists to prevent — 4♠ on a 5-1 fit — is gone. A forgotten sequence lands in a partscore or a thin game, at the two or three level, never a doomed contract. A lapse costs a board, not a number.
 
 ---
 
