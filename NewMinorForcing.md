@@ -7,7 +7,13 @@ Used by responder after a 1NT or 2NT rebid by opener to ask about opener's shape
 ## When It Applies
 
 **Auction:** 1m – 1M – 1NT – 2♣ or 2<span class="r">♦</span> (the *other* minor = new minor)
+
+**Auction:** 1<span class="r">♥</span> – 1♠ – 1NT – 2♣ or 2<span class="r">♦</span> (*either* minor)
+
 **Auction:** 1m – 1M – 2NT – 3♣ or 3<span class="r">♦</span> (the *other* minor = new minor)
+
+**Auction:** 1<span class="r">♥</span> – 1♠ –  2NT – 3♣ or 3<span class="r">♦</span> (the *other* minor = new minor)
+
 
 - Responder bids the **unbid minor** as an artificial, forcing bid
 - Does **not** show clubs/diamonds — it's asking opener to describe further
