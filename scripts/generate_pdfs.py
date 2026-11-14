@@ -25,7 +25,6 @@ COMBINED_ORDER = [
     "BetsyAndSteve.md",
     "NTResponses.md",
     "MajorRaises.md",
-    "Dreary.md",
     "InvertedMinors.md",
     "AfterOpponentsInterfereWithNT.md",
     "SupportDoubles.md",
