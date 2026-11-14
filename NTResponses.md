@@ -117,6 +117,7 @@ Covers responses to 1NT (15–17) and 2NT (20–21) openings.
 </table>
 
 ---
+
 ## Rule of 16
 
 When responding to a 1NT opening, with no 4 card major and 8-9 points, use the rule of 16:
