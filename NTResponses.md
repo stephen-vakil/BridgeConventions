@@ -123,6 +123,7 @@ Covers responses to 1NT (15–17) and 2NT (20–21) openings.
 When responding to a 1NT opening, with no 4 card major and 8-9 points, use the rule of 16:
 
 Add HCP to the number of cards you have that are 8 or higher.  If the total is:
+
 - <16 Pass
 - 16+ bid 3NT
 
