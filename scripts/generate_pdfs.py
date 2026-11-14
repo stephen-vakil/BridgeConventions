@@ -81,7 +81,10 @@ def render_mermaid(content: str, base_name: str) -> str:
         finally:
             os.unlink(tmp)
 
-        return f"\n![Diagram {count[0]}]({img_path})\n"
+        return (
+            f'\n\n<div class="diagram-page">'
+            f'<img src="{img_path}" alt="Diagram {count[0]}"></div>\n\n'
+        )
 
     return re.sub(
         r"```mermaid\s*\n(.*?)\n```", replace, content, flags=re.DOTALL

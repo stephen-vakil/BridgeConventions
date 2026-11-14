@@ -19,7 +19,7 @@ Used by responder after a 1NT or 2NT rebid by opener to ask about opener's shape
 - Does **not** show clubs/diamonds — it's asking opener to describe further
 
 **Requirements for responder:**
-- Invitational or better values (typically 10+ HCP)
+- Invitational or better values (typically 11+ HCP)
 - Wants more information before placing the contract
 
 ---

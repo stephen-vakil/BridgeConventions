@@ -129,6 +129,31 @@ img {
   page-break-inside: avoid;
 }
 
+/* Diagrams get their own landscape page so wide flowcharts aren't
+   squeezed into a 6.5in-wide portrait column. */
+@page landscape {
+  size: letter landscape;
+  margin: 0.6in;
+}
+
+.diagram-page {
+  page: landscape;
+  page-break-before: always;
+  page-break-after: always;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7.3in;
+}
+
+.diagram-page img {
+  max-width: 100%;
+  max-height: 7.2in;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
 /* Blockquote used for the Announce/Alert note */
 blockquote {
   border-left: 4px solid #cc0000;

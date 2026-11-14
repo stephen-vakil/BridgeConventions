@@ -4,9 +4,6 @@
 
 ---
 
-## Open questions:
-- Convention card - Coded 9's and 10's
-
 ### General Approach
 **System:** Standard American | **5-card majors** | **1st–4th seat**
 
@@ -29,10 +26,6 @@
 | [WONT.md](WONT.md) | System for overcalling opponents 1NT | 
 | [MichaelsCuebid.md](MichaelsCuebid.md) | Michaels Cuebid | 
 | [Unusual2NT.md](Unusual2NT.md) | Unusual 2NT | 
-
-### Not Yet Adopted - Potentially discuss
-- Help suit / game try suit
-- Fourth Suit Forcing
 
 ---
 
@@ -84,8 +77,8 @@
 
 ### Overcalls
 
-- **Simple (1-level):** 8–17 HCP
-- **Simple (2-level):** 11–17 HCP
+- **Simple (1-level):** Good suit and/or full opening hand, 8–17 HCP
+- **Simple (2-level):** Full opening hand, good suit, <17 HCP
 - New suit by advancer is non-forcing constructive
 
 **Jump overcall:** Intermediate — sound when vulnerable, light when non-vulnerable
@@ -108,6 +101,7 @@
 |------|---------|-------|
 | Negative | 3♠ |  |
 | [Support](SupportDoubles.md) | 2♠ |  |
+| Takeout | 3♠ | Response:  0-8 no jump, 9-11 jump |
 | Takeout vs. preempts | 4♠ | |
 | Takeout + bid:  18+ hcp | | |
 
@@ -157,8 +151,8 @@
 | [3M raise](MajorRaises.md) | 4-card support, 0–5 pts (preemptive) |
 | [Jacoby 2NT](MajorRaises.md) | Game-forcing raise, 4-card support |
 | [Splinter](MajorRaises.md) | Game-forcing raise, singleton/void |
-| [Dreary 2♣](Dreary.md) | Passed hand: 3-card support or natural clubs |
-| [Dreary 2<span class="r">♦</span>](Dreary.md) | Passed hand: 4-card support or natural diamonds |
+| [Dreary 2♣](Dreary.md) | Passed hand: 3-card support or natural clubs 10-12 pts |
+| [Dreary 2<span class="r">♦</span>](Dreary.md) | Passed hand: 4-card support or natural diamonds 10-12 pts |
 | [Inverted minor raise](InvertedMinors.md) | Forcing, 10+ pts, no 4-card major |
 | [New Minor Forcing](NewMinorForcing.md) | After 1m – 1M – 1NT or 2NT |
 | [WONT 2♣/2<span class="r">♦</span>/2<span class="r">♥</span>/2♠/DBL](WONT.md) | Over opponent's 1NT opening |
