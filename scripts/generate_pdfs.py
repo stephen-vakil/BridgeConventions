@@ -49,6 +49,7 @@ def render_mermaid(content: str, base_name: str) -> str:
     def replace(match):
         count[0] += 1
         src = match.group(1).strip()
+        legend = match.group(2) or ""
         img_path = IMG_DIR / f"{base_name}_{count[0]}.png"
 
         with tempfile.NamedTemporaryFile(
@@ -82,12 +83,17 @@ def render_mermaid(content: str, base_name: str) -> str:
             os.unlink(tmp)
 
         return (
-            f'\n\n<div class="diagram-page">'
-            f'<img src="{img_path}" alt="Diagram {count[0]}"></div>\n\n'
+            f'\n\n<div class="diagram-page"><div class="diagram-stack">'
+            f'<img src="{img_path}" alt="Diagram {count[0]}">'
+            f"{legend}"
+            f"</div></div>\n\n"
         )
 
     return re.sub(
-        r"```mermaid\s*\n(.*?)\n```", replace, content, flags=re.DOTALL
+        r"```mermaid\s*\n(.*?)\n```(?:[ \t]*\n+(<div\b[^>]*>.*?</div>))?",
+        replace,
+        content,
+        flags=re.DOTALL,
     )
 
 
